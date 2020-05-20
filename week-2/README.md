@@ -63,17 +63,8 @@
 
 ### Exercises
 
-#### Isolate
-
-- emoji leveling
-- links to exercises. repositories, tutorial sites, ...
-- [\_](https://github.com/hackyourfuturebelgium/coming-soon)
-
-#### Integrate
-
-- emoji leveling
-- Finish the in-class project from Sunday
-- other tiny projects, preferably collaborative
+- emoji leveling (:egg:, :hatching_chick:, :hatched_chick:)
+- links to exercise repositories
 
 ---
 
