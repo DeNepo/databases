@@ -1,8 +1,8 @@
-# Module Name
+# Data Modeling
 
-[<< Week x-1]() | [Main Page](../README.md) | [Week X+1 >>]()
+[<< Week 1](../week-1/README.md) | [Main Page](../README.md)
 
-## Week X
+## Week 2
 
 - [Learning Objectives](#learning-objectives)
 - [Prep Work](#prep-work)
@@ -37,7 +37,7 @@
 
 ## Lesson Plan
 
-> [Lesson Plan Slides](https://hackyourfuture.be/module-name/week-X)
+> [Lesson Plan Slides](https://hackyourfuture.be/data-modeling/week-1)
 
 ... a few words ...
 

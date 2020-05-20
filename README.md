@@ -1,6 +1,7 @@
-# Module Name
+# Data Modeling
 
->  quote
+>  Data model emphasizes on what data is needed and how it should be organized instead of what operations need to be performed on the data. Data Model is like architect's building plan which helps to build a conceptual model and set the relationship between data items.
+> - [guru99](https://www.guru99.com/data-modelling-conceptual-logical.html)
 
 ## Contents
 
@@ -8,9 +9,8 @@
 - [Learning Objectives](#learning-objectives)
 - [Module Projects](#module-projects)
 - Weekly Details:
-  - [Week 1](./week-1/README.md)
-  - [Week 2](./week-2/README.md)
-  - [Week 3](./week-3/README.md)
+  - Week 1: [assignments](./week-1/README.md), [lesson plan](https://hackyourfuture.be/web-apps/week-1)
+  - Week 2: [assignments](./week-2/README.md), [lesson plan](https://hackyourfuture.be/web-apps/week-2)
 - Study Materials:
   - [Isolate](./isolate/README.md) - examples and exercises
   - [Integrate](./integrate/README.md) - projects to study
@@ -31,10 +31,6 @@
 
 ### Programming Skills
 
-### Isolating JavaScript
-
-### Integrating JavaScript
-
 ### Tooling
 
 [TOP](#contents)
@@ -43,8 +39,4 @@
 
 ## Module Projects
 
-a description of this module's projects.
-
-- how will the code be organized?
-- what is added to this module's development strategies?
-- what langauge features & tools will you use?
+Projects in this module will use the same folder structure & boilerplate code you learned in [the previous `web-apps` module](https://github.com/hackyourfuturebelgium/web-apps)
