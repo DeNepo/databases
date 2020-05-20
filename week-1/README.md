@@ -47,7 +47,6 @@
 
 ### Integrate
 
-- \_: [stepped](../integrate/_), [separated](../integrate/_)
 - [\_](https://github.com/hackyourfuturebelgium/coming-soon) (starter repo)
 
 ---
