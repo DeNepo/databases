@@ -30,8 +30,12 @@
 ## Learning Objectives
 
 ### Programming Skills
+- Learn what relational database management systems (RDBMS) are
+- Learn about relational models, tables, relations, columns, rows and keys 
+- Learn how to write structured query language (SQL)
 
 ### Tooling
+- [SQLite](https://www.sqlite.org/index.html) - a SQL database engine
 
 [TOP](#contents)
 
