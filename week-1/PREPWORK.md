@@ -27,81 +27,29 @@ Extra resources:
 - [What is Database & SQL? - Guru99](https://www.youtube.com/watch?v=FR4QIeZaPeM)
 - [What are databases? - LinkedIn Learning](https://www.youtube.com/watch?v=Ls_LzOZ7x0c)
 
-## Chinook Sample Database
-Before we continue let's familiarize ourselves with a concrete, sample database. In this module we'll be using the [Chinook](https://github.com/lerocha/chinook-database) database. It models data to represent a digital media store: artists, albums, media tracks, invoices and customers. [The database schema](https://en.wikipedia.org/wiki/Database_schema) for this database looks like this: 
+## Relational Model
+
+Before we continue familiarizing ourselves with some concepts of the relational model, let's take a look at a concrete, sample database. In this module we'll be using the [Chinook](https://github.com/lerocha/chinook-database) database. It models data to represent a digital media store: artists, albums, media tracks, invoices and customers. [The database schema](https://en.wikipedia.org/wiki/Database_schema) for this database looks like this:
 
 ![Chinook Sample Database](chinook-schema.png)
 
-## Entities, attributes and relationships
+### Tables, Records, Attributes, Fields and Keys
 
-You abstract (generalize) to make sense of the world. You do it everywhere, all the time. Even without thinking about it.
-As Zachery Tellman states: "To abstract is to treat things which are different as equivalent".
-You speak of a dog called Bello, and since it's a dog you also know that Bello is an animal and a pet.
-This is not something that Bello will tell you, humans made all this up.
-Dog, animal, pet, humans, all these are abstractions.
+The data is organized in multiple [tables](https://en.wikipedia.org/wiki/Table_(database)). Generally, each table represents an entity type (e.g. artists or customers).
 
-One way of abstracting is to think of entities and their relationships.
-An entity is an abstraction. It represents a certain category of things, like:
-humans, women, men, animals, pets, broken bicycles, chairs, music, teachers, chewing gum, and planets.
-You can think of a **pet** as an entity that has a relationship to another entity **human**, its owner.
-More formally you can say a **human** owns **zero or more** **pets**.
+Let's take a look what the content of the `Artist` table looks like:
+![Chinook Sample Database](artists.png)
 
-When creating an application you need to think of all the entities and their relationships
-that are relevant to our application, you call this the application's **domain**.
-Together these entities and relationships form the **domain model** for your application.
+As you can see each table consists of columns, rows and cells (very similar to spreadsheets):
 
-## 6. What are data types (as applied to databases)?
+- The rows represent instances of that type of entity. As you can see there's at least ten rows in our database, each one representing a specific instance of an `Artist`. E.g. the fifth row is an instance of an `Artist` (of which the name is Alice In Chains). Rows are also called records.
+- The columns represent values attributed to that instance. There's two columns within the `Artist` table: `ArtistId` and `Name`. E.g. `5` is the `ArtistId` of the fifth row, `Alice In Chains` is the `Name`. Columns are also called attributes.
+- Cells lives at the intersection of a row and a column and holds a specific value. E.g. the name attribute of the fifth record has the value `Alice In Chains`. Cells are also called fields.
 
-When you store data in MySQL, each datum (singular of the word data) needs to be associated with its type.
+You'll notice that most of the time each table will have one attribute like `ArtistId` representing some kind of identifier (id) of the entity. Such identifier attributes are called keys. When the value for each record needs to be unique across all records for such a key attribute it's called [a primary key](https://en.wikipedia.org/wiki/Primary_key) (of which `ArtistId` is one). This key can then be used to identify each record.
 
-For example numbers like 42, 1636 or -345 are all associated with the type `int`.
+Attributes also define the data type which the values of its fields should be. SQLite has [5 data types](https://www.sqlite.org/datatype3.html): NULL, integer, real, text and blob. In our example the primary key `ArtistId` 's data type is integer and the `Name` attribute's data type is text.
 
-The following is a list of the most frequently used data types.
+Okay, let's take a break from theory. Let's check out some data! Go to [this handy online SQLite viewer](https://inloop.github.io/sqlite-viewer/) and upload our sample database file. From the dropdown you'll be able to see the data of different tables. Don't worry about the `SELECT * FROM ...` "code" just  yet.
 
-| Type       | Description                                   | Example Value           |
-| ---------- | --------------------------------------------- | ----------------------- |
-| int        | Numbers                                       | 42                      |
-| float      | Decimal numbers                               | 3.14                    |
-| varchar(N) | String with variable maximum of N characters  | "Dragon"                |
-| text       | String with fixed maximum of 65535 characters | "Positive"              |
-| datetime   | Store date and time without timezone          | 2019-01-01 22:10:23     |
-| timestamp  | Store date with timezone (e.g. last login)    | 2019-01-01 22:10:23 UTC |
-| BLOB       | Store binary files                            | an image                |
-
-There are many more data types. You can read about them [here](https://www.w3resource.com/mysql/mysql-data-types.php).
-
-Extra resources:
-
-- [Mendix Introduction Course - Entities vs. The Database - Mendix Community](https://www.youtube.com/watch?v=hBu2pdphYaA)
-- [Entities, Attributes, and Relationships](https://www.youtube.com/watch?v=hveVlCHZtsI)
-
-## 5. What is Structured Query Language (SQL)?
-
-SQL (Structured Query Language) is a programming language used for managing the data that is stored in a DBMS (DataBase Management System). The `Query` part in SQL refers to the act of "asking a database" for a certain type of information; you are `querying the database`.
-
-There are several implementations (software) of DBMS. Each software provides its own query language. For this course, you will learn [MySQL](https://www.mysql.com/).
-
-To learn more, check out the following:
-
-- [The Structured Query Language (SQL)](https://www.youtube.com/watch?v=kqUIoOM3WEs)
-
-
-## 7. How to use SQL to Create, Read, Update and Delete (CRUD)
-
-With the knowledge of all the datatypes, you can now create tables that contain the data with these datatypes.
-
-Tables contain columns and columns have datatypes. For example, in a column with names of students,
-you cannot have numbers.
-
-- MySQL provides a `CREATE TABLE` statement that creates a table with columns. You can choose the table name, column names but you have to choose the pre-defined datatypes supported by MySQL. For example, a column `Registration number` cannot have the data type number. It must use `int` because it represents the numeric datatype.
-
-- MySQL provides `SELECT` statement which reads (columns and rows) from a table with or without filtration.
-
-- MySQL provides `UPDATE` statement which changes the contents of (columns and rows of) a table.
-
-- MySQL provides `DELETE` statement which can delete rows of tables. In order to delete columns, you need to use `ALTER` and `DROP` statements.
-
-Check out the following to learn more about how to apply SQL:
-
-- [Learn basic SQL in 10 minutes](https://www.youtube.com/watch?v=bEtnYWuo2Bw)
-- [Learn Basic SQL Commands](https://www.youtube.com/watch?v=OlT3FispsMU)
+In total there are eleven tables in the Chinook sample database, all with various attributes. Use the SQLite viewer to check them out and get familiar with them. Don't panic if not all attributes make sense yet.
