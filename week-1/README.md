@@ -15,19 +15,19 @@
   - [Project](#project)
 
 ---
----
-``
+
 ## Learning Objectives
 
-... specifically for this week
+- Familiarize some theoretical concepts: information systems, databases, RDMBs, relational models, tables, records, attributes, fields and keys
+- Learn how to navigate a (SQLite) database
+- Learn how to write basic SQL queries using following statements: `SELECT`, `ORDER BY`, `SELECT DISTINCT`, `WHERE`, `LIMIT`, `BETWEEN`, `LIKE`.
 
----
 ---
 
 ## Prep Work
 The goal is to make this a very hands-on class. Nonetheless it's important to familiarize yourself with some theoretical concepts surrounding databases before diving in.
 
-### Information Systems and Databases
+### Information Systems, Databases and RDMBs
 [Databases](https://en.wikipedia.org/wiki/Database) are a type of [(computer) information systems](https://en.wikipedia.org/wiki/Information_system). They organize collections of data, stored and accessed a computer system.
 
 Imagine the following piece of information: Evan Cole was walking down the Cantersteen in Bruxelles at 9:30 on Sunday May 31st 2020. This sole sentence holds a lot of information but for a computer system this sentence isn't the optimal organisation of data.
@@ -94,7 +94,16 @@ Okay, let's take a break from theory. Let's check out some data! Go to [this han
 
 In total there are eleven tables in the Chinook sample database, all with various attributes. Use the SQLite viewer to check them out and get familiar with them. Don't panic if not all attributes make sense yet.
 
----
+### SQL
+As mentioned before most relational databases use [SQL](https://en.wikipedia.org/wiki/SQL) for storing and accessing data. SQLite is no different. This is going to be the focus point of this class: writing [SQL queries](https://en.wikipedia.org/wiki/SQL_syntax#Queries) to fetch data from a database.
+
+Extra resources:
+
+- [SQLite Tutorial - An Easy Way to Master SQLite Fast](https://www.sqlitetutorial.net/)
+This is a very nice tutorial website which, surprise surprise, uses the same sample database as we use.
+- [Learn basic SQL in 10 minutes - Janes Vance](https://www.youtube.com/watch?v=bEtnYWuo2Bw)
+- [The Structured Query Language (SQL) - Dr. Daniel Soper](https://www.youtube.com/watch?v=kqUIoOM3WEs)
+
 ---
 
 ## Lesson Plan

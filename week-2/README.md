@@ -37,7 +37,7 @@
 
 ## Lesson Plan
 
-> [Lesson Plan Slides](https://hackyourfuture.be/data-modeling/week-1)
+> [Lesson Plan Slides](https://hackyourfuture.be/databases/week-1)
 
 ... a few words ...
 

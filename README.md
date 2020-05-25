@@ -1,7 +1,4 @@
-# Data Modeling
-
->  Data model emphasizes on what data is needed and how it should be organized instead of what operations need to be performed on the data. Data Model is like architect's building plan which helps to build a conceptual model and set the relationship between data items.
-> - [guru99](https://www.guru99.com/data-modelling-conceptual-logical.html)
+# Databases
 
 ## Contents
 
@@ -30,9 +27,9 @@
 ## Learning Objectives
 
 ### Programming Skills
-- Learn what relational database management systems (RDBMS) are
-- Learn about relational models, tables, relations, columns, rows and keys 
-- Learn how to write structured query language (SQL)
+- Familiarize some theoretical concepts: information systems, databases, RDMBs, relational models, tables, records, attributes, fields and keys
+- Learn how to navigate a (SQLite) database
+- Learn how to write basic SQL queries using following statements: `SELECT`, `ORDER BY`, `SELECT DISTINCT`, `WHERE`, `LIMIT`, `BETWEEN`, `LIKE`
 
 ### Tooling
 - [SQLite](https://www.sqlite.org/index.html) - a SQL database engine
