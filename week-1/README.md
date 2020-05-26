@@ -15,13 +15,14 @@
   - [Project](#project)
 
 ---
----
 
 ## Learning Objectives
 
-- Connecting to an SQLite Database
+- Familiarize some theoretical concepts: information systems, databases, RDMBs, relational models, tables, records, attributes, fields and keys
+- Learn how to navigate a (SQLite) database
+- Learn how to write basic SQL queries using following statements: `SELECT`, `ORDER BY`, `SELECT DISTINCT`, `WHERE`, `LIMIT`, `BETWEEN`, `LIKE`.
+- Using the `sqlite3` module in your node apps
 
----
 ---
 
 ## Prep Work
@@ -30,11 +31,17 @@
 > - [Review the Weekly Assignments guide](https://home.hackyourfuture.be/students/weekly-assignments)
 > - [Create your Homework Issue](https://home.hackyourfuture.be/students/homework-submission#homework-issues)
 
-## About Databases
+The goal is to make this a very hands-on class. Nonetheless it's important to familiarize yourself with some theoretical concepts surrounding databases before diving in.
 
-- [PrepWork Readings](./PREPWORK.md)
+- [PREPWORK.md](./PREPWORK.md)
 
----
+Extra resources:
+
+- [SQLite Tutorial - An Easy Way to Master SQLite Fast](https://www.sqlitetutorial.net/)
+This is a very nice tutorial website which, surprise surprise, uses the same sample database as we use.
+- [Learn basic SQL in 10 minutes - Janes Vance](https://www.youtube.com/watch?v=bEtnYWuo2Bw)
+- [The Structured Query Language (SQL) - Dr. Daniel Soper](https://www.youtube.com/watch?v=kqUIoOM3WEs)
+
 ---
 
 ## Lesson Plan
