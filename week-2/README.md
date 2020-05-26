@@ -1,4 +1,4 @@
-# Data Modeling
+# Databases
 
 [<< Week 1](../week-1/README.md) | [Main Page](../README.md)
 
@@ -37,7 +37,7 @@
 
 ## Lesson Plan
 
-> [Lesson Plan Slides](https://hackyourfuture.be/data-modeling/week-1)
+> [Lesson Plan Slides](https://hackyourfuture.be/databases/week-1)
 
 ... a few words ...
 

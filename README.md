@@ -1,7 +1,4 @@
-# Data Modeling
-
->  Data model emphasizes on what data is needed and how it should be organized instead of what operations need to be performed on the data. Data Model is like architect's building plan which helps to build a conceptual model and set the relationship between data items.
-> - [guru99](https://www.guru99.com/data-modelling-conceptual-logical.html)
+# Databases
 
 ## Contents
 
@@ -9,8 +6,8 @@
 - [Learning Objectives](#learning-objectives)
 - [Module Projects](#module-projects)
 - Weekly Details:
-  - Week 1: [assignments](./week-1/README.md), [lesson plan](https://hackyourfuture.be/web-apps/week-1)
-  - Week 2: [assignments](./week-2/README.md), [lesson plan](https://hackyourfuture.be/web-apps/week-2)
+  - Week 1: [assignments](./week-1/README.md), [lesson plan](https://hackyourfuture.be/databases/week-1)
+  - Week 2: [assignments](./week-2/README.md), [lesson plan](https://hackyourfuture.be/databases/week-2)
 - Study Materials:
   - [Isolate](./isolate/README.md) - examples and exercises
   - [Integrate](./integrate/README.md) - projects to study
@@ -31,7 +28,7 @@
 
 ### Programming Skills
 - Learn what relational database management systems (RDBMS) are
-- Learn about relational models, tables, relations, columns, rows and keys 
+- Learn about relational models, tables, relations, columns, rows and keys
 - Learn how to write structured query language (SQL)
 
 ### Tooling

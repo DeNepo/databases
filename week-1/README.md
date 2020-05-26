@@ -1,4 +1,4 @@
-# Data Modeling
+# Databases
 
 [Main Page](../README.md) | [Week 2 >>](../week-2/README.md)
 
@@ -19,25 +19,28 @@
 
 ## Learning Objectives
 
-... specifically for this week
+- Connecting to an SQLite Database
 
 ---
 ---
 
 ## Prep Work
 
-> First things first:
+> Before Sunday Class:
 > - [Review the Weekly Assignments guide](https://home.hackyourfuture.be/students/weekly-assignments)
 > - [Create your Homework Issue](https://home.hackyourfuture.be/students/homework-submission#homework-issues)
 
-... things to read/watch/try before coming in on sunday ...
+## About Databases
+
+- [PrepWork Readings](./PREPWORK.md)
 
 ---
 ---
 
 ## Lesson Plan
 
-> [Lesson Plan Slides](https://hackyourfuture.be/data-modeling/week-1)
+> During Sunday Class
+> - [Lesson Plan Slides](https://hackyourfuture.be/databases/week-1)
 
 ... a few words ...
 
@@ -54,9 +57,12 @@
 
 ## Assignments
 
+> After Sunday Class
+
 ### Suggested Study
 
-- [\_](_)
+- [SQLite Node.js Guide](https://www.sqlitetutorial.net/sqlite-nodejs/)
+- [developerhowto tutorial](https://developerhowto.com/2018/12/29/build-a-rest-api-with-node-js-and-express-js/)
 
 ---
 
