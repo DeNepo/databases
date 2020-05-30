@@ -41,7 +41,7 @@ The goal is to make this a very hands-on class. Nonetheless it's important to fa
 > - [Lesson Plan Slides](https://hackyourfuture.be/databases/week-1)
 
 ### Isolate
-Check out this week's exercises [here](../isolate/week-1/EXERCISES.md).
+Check out this week's exercises [here](../isolate/week-1/EXERCISES.md).  You can study them in the [SQLite Tutorial Sandbox](https://www.sqlitetutorial.net/tryit/)
 
 ### Integrate
 
