@@ -63,7 +63,7 @@ You will be learning to use [sqlite3](https://github.com/mapbox/node-sqlite3/wik
 - [sqlteaching](https://www.sqlteaching.com/)
 - [SQL Murder Mystery](https://mystery.knightlab.com/)
 
-#### Tools
+#### Tooling
 
 - [TablePlus](https://tableplus.com/) is a modern, native, and friendly GUI tool for several relational databases: SQLite, MySQL, PostgreSQL & more.
 - [DB Browser for SQLite](https://sqlitebrowser.org/) is a high quality, visual, open source tool to create, design, and edit database files compatible with SQLite.
@@ -76,15 +76,49 @@ You will be learning to use [sqlite3](https://github.com/mapbox/node-sqlite3/wik
 - [SQLite Node.js Guide](https://www.sqlitetutorial.net/sqlite-nodejs/)
 - [node-sqlite3 has good docs](https://github.com/mapbox/node-sqlite3/wiki/)
 - [developerhowto tutorial article](https://developerhowto.com/2018/12/29/build-a-rest-api-with-node-js-and-express-js/)
-- PetsApp: [video tutorial (SQLite starts at #7)](https://www.youtube.com/watch?v=2PCaD0Y4MP4&list=PLzV58Zm8FuBIWu1zvGRUfn0Xh6HXRg9cG&index=7), [start code & finished to study](https://github.com/pgbovine/COGS121)
+- PetsApp: [video tutorial (SQLite starts at #7)](https://www.youtube.com/watch?v=2PCaD0Y4MP4&list=PLzV58Zm8FuBIWu1zvGRUfn0Xh6HXRg9cG&index=7), [starter code & finished to study](https://github.com/pgbovine/COGS121)
 
 ---
 
 ### Exercises
 
-- [Chinook Queries](https://github.com/HackYourFutureBelgium/chinook-queries)
+- :egg: [Chinook Queries](https://github.com/HackYourFutureBelgium/chinook-queries)
 
 ---
 
 ### Project
 
+#### Checklist
+
+```md
+- [ ] [repo](https://github.com/user-name/project-name)
+- [ ] [live demo](heroku-url)
+- [ ] A `development-strategy.md`
+- [ ] One branch per step in your `development-strategy.md`
+- [ ] A complete README.md
+- [ ] A working API in the `/api` directory
+- [ ] (challenge) A frontend for you API in the `/client` folder
+```
+
+#### `restful-chinook`
+
+Build a RESTful API with CRUD access to all of the musical tables in the `chinook.sqlite` database. Starting with the [restful-chinook](https://github.com/HackYourFutureBelgium/restful-chinook), fill in the controller files in `/api` to create a fully-functioning API.
+
+If you have finished the API and are looking for a challenge, write a frontend!  No suggestions from us, impress yourself :)
+
+#### Deployment
+
+This is a nice first project to try out fullstack deployment.
+
+__Directly from GitHub__
+
+- [FCC Article](https://www.freecodecamp.org/news/how-to-deploy-a-nodejs-app-to-heroku-from-github-without-installing-heroku-on-your-machine-433bec770efe/)
+- [Heroku CI](https://www.heroku.com/continuous-integration)
+
+__From Terminal__
+
+- [Heroku Getting Started](https://devcenter.heroku.com/articles/getting-started-with-nodejs)
+- [Scotch Tutorial](https://scotch.io/tutorials/how-to-deploy-a-node-js-app-to-heroku)
+- [Heroku devhints](https://devhints.io/heroku)
+- [Heroku DevCenter: Node.js Support](https://devcenter.heroku.com/articles/nodejs-support)
+- [Heroku DevCenter: Advanced Automation](https://devcenter.heroku.com/articles/multiple-environments#advanced-linking-local-branches-to-remote-apps)
