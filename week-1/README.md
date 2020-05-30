@@ -75,7 +75,8 @@ You will be learning to use [sqlite3](https://github.com/mapbox/node-sqlite3/wik
 
 - [SQLite Node.js Guide](https://www.sqlitetutorial.net/sqlite-nodejs/)
 - [node-sqlite3 has good docs](https://github.com/mapbox/node-sqlite3/wiki/)
-- [developerhowto tutorial](https://developerhowto.com/2018/12/29/build-a-rest-api-with-node-js-and-express-js/)
+- [developerhowto tutorial article](https://developerhowto.com/2018/12/29/build-a-rest-api-with-node-js-and-express-js/)
+- PetsApp: [video tutorial (SQLite starts at #7)](https://www.youtube.com/watch?v=2PCaD0Y4MP4&list=PLzV58Zm8FuBIWu1zvGRUfn0Xh6HXRg9cG&index=7), [start code & finished to study](https://github.com/pgbovine/COGS121)
 
 ---
 
