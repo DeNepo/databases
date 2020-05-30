@@ -69,3 +69,10 @@ In total there are eleven tables in the Chinook sample database, all with variou
 ## SQL
 
 As mentioned before most relational databases use [SQL](https://en.wikipedia.org/wiki/SQL) for storing and accessing data. SQLite is no different. This is going to be the focus point of this class: writing [SQL queries](https://en.wikipedia.org/wiki/SQL_syntax#Queries) to fetch data from a database.
+
+Extra resources:
+
+- [SQLite Tutorial - An Easy Way to Master SQLite Fast](https://www.sqlitetutorial.net/)
+This is a very nice tutorial website which, surprise surprise, uses the same sample database as we use.
+- [Learn basic SQL in 10 minutes - Janes Vance](https://www.youtube.com/watch?v=bEtnYWuo2Bw)
+- [The Structured Query Language (SQL) - Dr. Daniel Soper](https://www.youtube.com/watch?v=kqUIoOM3WEs)
