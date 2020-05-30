@@ -1,6 +1,6 @@
 /*
-  user input: a playlist id
-  logged data: all song names in that playlist
+  user input: column to order by, ASC or DSC
+  logged data: all columns from the invoices table, sorted as instructed by the user input
 */
 
 const path = require('path');

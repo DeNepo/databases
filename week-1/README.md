@@ -84,6 +84,7 @@ You will be learning to use [sqlite3](https://github.com/mapbox/node-sqlite3/wik
 #### + Node
 
 - [SQLite Node.js Guide](https://www.sqlitetutorial.net/sqlite-nodejs/)
+    - This is written about the `sqlite3`.  Everything applies to the `sqlite` module, but you can use async/await instead
 - [developerhowto tutorial](https://developerhowto.com/2018/12/29/build-a-rest-api-with-node-js-and-express-js/)
 - [node-sqlite has good docs](https://github.com/kriasoft/node-sqlite)
 

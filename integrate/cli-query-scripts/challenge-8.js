@@ -1,6 +1,6 @@
 /*
-  user input: table name, column to order by, ASC or DSC
-  logged data: all columns from the given table, sorted as instructed by the user input
+  user input: column name, table name
+  logged data: the first 20 unique values for the given column, in the given table
 */
 
 const path = require('path');

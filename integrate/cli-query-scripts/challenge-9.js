@@ -1,6 +1,6 @@
 /*
-  user input: table name, column to order by, ASC or DSC
-  logged data: all columns from the given table, sorted as instructed by the user input
+  user input: table name, column name, search string, number of entries
+  logged data: return a given number of rows matching the search parameter
 */
 
 const path = require('path');
@@ -29,3 +29,4 @@ const queryString = ``;
     console.error(err)
   }
 })();
+
