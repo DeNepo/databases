@@ -41,11 +41,11 @@ The goal is to make this a very hands-on class. Nonetheless it's important to fa
 > - [Lesson Plan Slides](https://hackyourfuture.be/databases/week-1)
 
 ### Isolate
-Check out this week's exercises [here](../isolate/week-1/EXERCISES.md).  You can study them in the [SQLite Tutorial Sandbox](https://www.sqlitetutorial.net/tryit/)
+Check out this week's exercises [here](../isolate/week-1/EXERCISES.md).  You can study them in the [SQLite Tutorial Sandbox](https://www.sqlitetutorial.net/tryit/).
 
 ### Integrate
 
-You will be learning to use [sqlite3](https://github.com/mapbox/node-sqlite3/wiki/API) & [sqlite](https://github.com/kriasoft/node-sqlite) together.  `sqlite3` is the module that will be actually reading and writing to the database file, while `sqlite` will allow you to write your code with async/await.
+You will be learning to use [sqlite3](https://github.com/mapbox/node-sqlite3/wiki/API), a module that allows you to query your SQLite database file.
 
 - [CLI Query Scripts](../integrate/cli-query-scripts)
 
@@ -74,9 +74,8 @@ You will be learning to use [sqlite3](https://github.com/mapbox/node-sqlite3/wik
 #### SQLite & Node.js
 
 - [SQLite Node.js Guide](https://www.sqlitetutorial.net/sqlite-nodejs/)
-    - This is written about the `sqlite3`.  Everything applies to the `sqlite` module, but you can use async/await instead
+- [node-sqlite3 has good docs](https://github.com/mapbox/node-sqlite3/wiki/)
 - [developerhowto tutorial](https://developerhowto.com/2018/12/29/build-a-rest-api-with-node-js-and-express-js/)
-- [node-sqlite has good docs](https://github.com/kriasoft/node-sqlite)
 
 ---
 
