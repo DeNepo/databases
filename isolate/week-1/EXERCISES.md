@@ -1,5 +1,6 @@
 # Isolate
 ## Week 1
+In these exercises we focus solely on writing SQL. Use [the online SQLite viewer](https://inloop.github.io/sqlite-viewer/), upload [our sample database file](chinook.sqlite) and start writing those queries!
 ###  Select
 <details><summary>Show all artists</summary>
 
@@ -213,11 +214,22 @@ where UnitPrice != '0.99';
 ```sql
 SELECT
     Name,
-    Bytes / 1000 / 1000 AS Megabytes
+    cast(Bytes AS REAL) / 1000 / 1000 AS Megabytes
 FROM
     Track
 WHERE
     Bytes / 1000 / 1000 <= 1;
+    
+---
+
+-- Using the column alias we avoid repeating ourselves
+SELECT
+    Name,
+    cast(Bytes AS REAL) / 1000 / 1000 AS Megabytes
+FROM
+    Track
+WHERE
+    Megabytes <= 1;
 ```
 </details>
 
