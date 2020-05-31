@@ -62,8 +62,7 @@
 
 ### Exercises
 
-- emoji leveling (:egg:, :hatching_chick:, :hatched_chick:)
-- links to exercise repositories
+- :egg: [Chinook Queries](https://github.com/HackYourFutureBelgium/chinook-queries)
 
 ---
 
