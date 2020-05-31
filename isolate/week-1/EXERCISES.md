@@ -219,6 +219,16 @@ FROM
     Track
 WHERE
     Bytes / 1000 / 1000 <= 1;
+    
+---
+
+SELECT
+	Name,
+	Bytes / 1000 / 1000 AS Megabytes
+FROM
+	Track
+WHERE
+	Megabytes <= 1;
 ```
 </details>
 
