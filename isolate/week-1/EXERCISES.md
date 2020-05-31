@@ -7,7 +7,7 @@
 SELECT
     *
 FROM
-    Artist;
+    Artists;
 ```
 </details>
 <details><summary>Show all artists' names</summary>
@@ -16,7 +16,7 @@ FROM
 SELECT
     Name
 FROM
-    Artist;
+    Artists;
 ```
 </details>
 <details><summary>Show all tracks</summary>
@@ -25,7 +25,7 @@ FROM
 SELECT
     *
 FROM
-    Track;
+    Tracks;
 ```
 </details>
 <details><summary>Show all tracks' name and price</summary>
@@ -35,7 +35,7 @@ SELECT
     Name,
     UnitPrice
 FROM
-    Track;
+    Tracks;
 ```
 </details>
 
@@ -44,7 +44,7 @@ FROM
 
 ```sql
 SELECT count(*)
-FROM Artist;
+FROM Artists;
 ```
 </details>
 
@@ -56,7 +56,7 @@ SELECT
     Name,
     Milliseconds
 FROM
-    Track
+    Tracks
 ORDER BY
     Milliseconds DESC;
 ```
@@ -68,7 +68,7 @@ SELECT
     Name,
     Milliseconds / 1000 / 60 AS Minutes
 FROM
-    Track
+    Tracks
 ORDER BY
     Milliseconds DESC;
 ```
@@ -80,7 +80,7 @@ SELECT
     InvoiceId,
     Total
 FROM
-    Invoice
+    Invoices
 ORDER BY
     Total;
 ```
@@ -93,7 +93,7 @@ ORDER BY
 SELECT DISTINCT
     Composer
 FROM
-    Track;
+    Tracks;
 ```
 </details>
 <details><summary>Show all unique unit prices of tracks</summary>
@@ -102,7 +102,7 @@ FROM
 SELECT DISTINCT
     UnitPrice
 FROM
-    Track;
+    Tracks;
 ```
 </details>
 <details><summary>Show the number of unique track composers</summary>
@@ -111,7 +111,7 @@ FROM
 SELECT
     count(DISTINCT Composer)
 FROM
-    Track;
+    Tracks;
 ```
 </details>
 
@@ -123,7 +123,7 @@ SELECT
     InvoiceId,
     Total
 FROM
-    Invoice
+    Invoices
 ORDER BY
     Total DESC
 LIMIT 10;
@@ -137,7 +137,7 @@ LIMIT 10;
 SELECT
     *
 FROM
-    Track
+    Tracks
 WHERE Composer = 'Philip Glass'
 ```
 </details>
@@ -182,7 +182,7 @@ SELECT
     LastName,
     Title
 FROM
-    Employee
+    Employees
 WHERE
     Title = 'IT Staff';
 ```
@@ -194,7 +194,7 @@ SELECT
     InvoiceId,
     Total
 FROM
-    Invoice
+    Invoices
 WHERE
     Total > 20;
 ```
@@ -204,7 +204,7 @@ WHERE
 ```sql
 SELECT count(*)
 FROM
-    Track
+    Tracks
 where UnitPrice != '0.99';
 ```
 </details>
@@ -215,7 +215,7 @@ SELECT
     Name,
     Bytes / 1000 / 1000 AS Megabytes
 FROM
-    Track
+    Tracks
 WHERE
     Bytes / 1000 / 1000 <= 1;
 ```
@@ -230,7 +230,7 @@ SELECT
     LastName,
     Title
 FROM
-    Employee
+    Employees
 WHERE
     Title LIKE '%IT%';
 ```
@@ -259,7 +259,7 @@ SELECT
     Title,
     City
 FROM
-    Employee
+    Employees
 WHERE
     Title LIKE '%IT%'
     AND City = 'Calgary';
@@ -276,7 +276,7 @@ SELECT
     Title,
     City
 FROM
-    Employee
+    Employees
 WHERE
     Title LIKE '%IT%'
     AND(City = 'Calgary'
@@ -292,7 +292,7 @@ SELECT
     InvoiceId,
     InvoiceDate
 FROM
-    Invoice
+    Invoices
 WHERE
     InvoiceDate BETWEEN '2009-01-01' AND '2009-03-31';
 ```
@@ -306,7 +306,7 @@ WHERE
 SELECT
     count(*)
 FROM
-    Customer
+    Customers
 WHERE
     Country IN('Argentina', 'Brazil', 'Canada', 'Chile', 'USA');
 ```
@@ -317,7 +317,7 @@ WHERE
 SELECT
     count(*)
 FROM
-    Customer
+    Customers
 WHERE
     Country NOT IN('Argentina', 'Brazil', 'Canada', 'Chile', 'USA');
 ```
@@ -330,7 +330,7 @@ WHERE
 SELECT
     min(Milliseconds) AS MinimumDuration
 FROM
-    Track;
+    Tracks;
 ```
 </details>
 <details><summary>Show the sum of all invoice totals</summary>
@@ -339,7 +339,7 @@ FROM
 SELECT
     sum(Total)
 FROM
-    Invoice;
+    Invoices;
 ```
 </details>
 <details><summary>Show the maximum size of all tracks in megabytes</summary>
@@ -348,7 +348,7 @@ FROM
 SELECT
     max(Bytes / 1000 / 1000) AS MaximumInMegabytes
 FROM
-    Track;
+    Tracks;
 ```
 </details>
 <details><summary>Show the average track duration in minutes</summary>
@@ -357,7 +357,7 @@ FROM
 SELECT
     avg(Milliseconds / 1000 / 60) AS AverageInMinutes
 FROM
-    Track;
+    Tracks;
 ```
 </details>
 <details><summary>Show the rounded average invoice total (rounded to 2 digits to the right of the decimal point)</summary>
@@ -366,7 +366,7 @@ FROM
 SELECT
     round(avg(Total), 2) AS AverageTotal
 FROM
-    Invoice;
+    Invoices;
 ```
 </details>
 
@@ -378,7 +378,7 @@ SELECT
     PlaylistId,
     count(*)
 FROM
-    PlaylistTrack
+    Playlist_Track
 GROUP BY
     PlaylistId;
 ```
@@ -390,7 +390,7 @@ SELECT
     InvoiceId,
     count(*)
 FROM
-    InvoiceLine
+    invoice_items
 GROUP BY
     InvoiceId;
 ```
@@ -402,7 +402,7 @@ SELECT
     InvoiceId,
     sum(UnitPrice * Quantity) AS AverageLineItemTotal
 FROM
-    InvoiceLine
+    invoice_items
 GROUP BY
     InvoiceId;
 ```
@@ -414,7 +414,7 @@ SELECT
     InvoiceId,
     avg(UnitPrice * Quantity) AS AverageLineItemTotal
 FROM
-    InvoiceLine
+    invoice_items
 GROUP BY
     InvoiceId;
 ```
@@ -426,7 +426,7 @@ SELECT
     Composer,
     round(avg(Milliseconds / 1000 / 60), 2) AS AverageDurationInMinutes
 FROM
-    Track
+    Tracks
 WHERE
     Composer IS NOT NULL
 GROUP BY
