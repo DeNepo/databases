@@ -222,13 +222,14 @@ WHERE
     
 ---
 
+-- Using the column alias we avoid repeating ourselves
 SELECT
-	Name,
-	Bytes / 1000 / 1000 AS Megabytes
+    Name,
+    Bytes / 1000 / 1000 AS Megabytes
 FROM
-	Track
+    Track
 WHERE
-	Megabytes <= 1;
+    Megabytes / 1000 / 1000 <= 1;
 ```
 </details>
 
