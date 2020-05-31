@@ -214,11 +214,22 @@ where UnitPrice != '0.99';
 ```sql
 SELECT
     Name,
-    Bytes / 1000 / 1000 AS Megabytes
+    cast(Bytes AS REAL) / 1000 / 1000 AS Megabytes
 FROM
     Track
 WHERE
     Bytes / 1000 / 1000 <= 1;
+    
+---
+
+-- Using the column alias we avoid repeating ourselves
+SELECT
+    Name,
+    cast(Bytes AS REAL) / 1000 / 1000 AS Megabytes
+FROM
+    Track
+WHERE
+    Megabytes <= 1;
 ```
 </details>
 

@@ -82,7 +82,7 @@ You will be learning to use [sqlite3](https://github.com/mapbox/node-sqlite3/wik
 
 ### Exercises
 
-- :egg: [Chinook Queries](https://github.com/HackYourFutureBelgium/chinook-queries)
+Plenty to do in the Suggested Study.  Enjoy a week off from exercises!
 
 ---
 
