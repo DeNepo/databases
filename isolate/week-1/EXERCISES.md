@@ -229,7 +229,7 @@ SELECT
 FROM
     Track
 WHERE
-    Megabytes / 1000 / 1000 <= 1;
+    Megabytes <= 1;
 ```
 </details>
 
