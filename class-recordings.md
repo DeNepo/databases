@@ -10,9 +10,9 @@ Screen recordings of class.  Coaches, when sending your PR's with links please .
 
 ---
 
-## Class X
+## Class 7&8
 
-1. week 1:
+1. Week 1:
    - Sunday Part 1: [Database Week 1](https://vimeo.com/424516925) - [Dimitri Roose](https://github.com/sjimi) - [Stijn Wynants]
    - Sunday Part 2: [description](video-link) - [coach name](github-link)
 
