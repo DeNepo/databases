@@ -63,7 +63,7 @@ Extra resources:
 
 ## Insert, Update and Delete Records in SQL
 
-So far we've focussed on reading records`` using [the SQL SELECT statement](https://en.wikipedia.org/wiki/Select_(SQL)). But SQL can also be used to insert, update and delete data!
+So far we've focussed on reading records using [the SQL SELECT statement](https://en.wikipedia.org/wiki/Select_(SQL)). But SQL can also be used to insert, update and delete data!
 
 ### Insert
 
