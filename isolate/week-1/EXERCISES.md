@@ -1,7 +1,6 @@
-# Isolate
-## Week 1
+# Week 1
 In these exercises we focus solely on writing SQL. Use [the online SQLite viewer](https://inloop.github.io/sqlite-viewer/), upload [our sample database file](chinook.sqlite) and start writing those queries!
-###  Select
+## Select
 <details><summary>Show all artists</summary>
 
 ```sql
@@ -40,7 +39,7 @@ FROM
 ```
 </details>
 
-### Count
+## Count
 <details><summary>Show the number of artists</summary>
 
 ```sql
@@ -49,7 +48,7 @@ FROM Artist;
 ```
 </details>
 
-### Order by
+## Order By
 <details><summary>Show all tracks' name and duration, sorted from longest to shortest duration</summary>
 
 ```sql
@@ -87,7 +86,7 @@ ORDER BY
 ```
 </details>
 
-### Select distinct
+## Select Distinct
 <details><summary>Show all unique track composers' names</summary>
 
 ```sql
@@ -116,7 +115,7 @@ FROM
 ```
 </details>
 
-### Select limit
+## Select Limit
 <details><summary>Show the id and total of the ten highest totalling invoices</summary>
 
 ```sql
@@ -131,7 +130,7 @@ LIMIT 10;
 ```
 </details>
 
-### Where
+## Where
 <details><summary>Show all tracks where Philip Glass is the composer</summary>
 
 ```sql
@@ -233,7 +232,7 @@ WHERE
 ```
 </details>
 
-### Where like
+## Where Like
 <details><summary>Show all employees' first name, last name and title whose title mentions IT</summary>
 
 ```sql
@@ -261,7 +260,7 @@ WHERE
 ```
 </details>
 
-### Where and
+## Where And
 <details><summary>Show all employees' first name, last name, title and city whose title mentions IT and that live in the city of Calgary</summary>
 
 ```sql
@@ -278,7 +277,7 @@ WHERE
 ```
 </details>
 
-### Where or
+## Where Or
 <details><summary>Show all employees' first name, last name, title and city whose title mentions IT and that live in the city of Calgary or Lethbridge</summary>
 
 ```sql
@@ -296,7 +295,7 @@ WHERE
 ```
 </details>
 
-### Where between
+## Where Between
 <details><summary>Show all invoices' id and invoice date that got invoiced in the first quarter of 2009</summary>
 
 ```sql
@@ -311,7 +310,7 @@ WHERE
 
 </details>
 
-### Where in
+## Where In
 <details><summary>Show the number of customers who live in Argentina, Brazil, Canada, Chile and USA</summary>
 
 ```sql
@@ -335,7 +334,7 @@ WHERE
 ```
 </details>
 
-### Min, sum, max, avg
+## Min, Sum, Max, Avg
 <details><summary>Show the minimum duration of all tracks</summary>
 
 ```sql
@@ -382,7 +381,7 @@ FROM
 ```
 </details>
 
-### Group by
+## Group By
 <details><summary>Show the number of tracks per playlist</summary>
 
 ```sql
