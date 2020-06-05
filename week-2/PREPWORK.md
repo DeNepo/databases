@@ -71,7 +71,7 @@ So far we've focussed on reading records using [the SQL SELECT statement](https:
 
 Let's try it out with an example using the sample database (again you can use [the online SQLite viewer](https://inloop.github.io/sqlite-viewer/) and upload [our sample database file](./chinook.sqlite)). 
 
-<details><summary>Add yourself as an `Artist` in the database</summary>
+<details><summary>Add an artist</summary>
 
 ```sql
 INSERT INTO Artist (Name) VALUES ('John Doe');
@@ -93,7 +93,7 @@ Extra resources:
 
 [An SQL UPDATE statement](https://en.wikipedia.org/wiki/Update_(SQL)) changes the data of one or more records in a table. Either all the rows can be updated, or a subset may be chosen using a condition.
 
-<details><summary>Update your `Artist` name to something more catchy</summary>
+<details><summary>Update your artist name to something more catchy</summary>
 
 ```sql
 UPDATE
@@ -120,7 +120,7 @@ Extra resources:
 
 [An SQL DELETE statement](https://en.wikipedia.org/wiki/Delete_(SQL)) removes one or more records from a table.
 
-<details><summary>Delete your `Artist` record from the database</summary>
+<details><summary>Delete your artist</summary>
 
 ```sql
 DELETE FROM Artist
