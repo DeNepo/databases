@@ -29,11 +29,13 @@
 ### Programming Skills
 
 - Learn what relational database management systems (RDBMS) are
-- Learn about relational models, tables, relations, columns, rows and keys
+- Learn about relational models, tables, columns, rows, primary keys, foreign keys and relationships
 - Learn how to write structured query language (SQL)
 - Familiarize some theoretical concepts: information systems, databases, RDMBs, relational models, tables, records, attributes, fields and keys
 - Learn how to navigate a (SQLite) database
-- Learn how to write basic SQL queries using following statements: `SELECT`, `ORDER BY`, `SELECT DISTINCT`, `WHERE`, `LIMIT`, `BETWEEN`, `LIKE`
+- Learn how to write basic SQL queries to read data using following statements: `SELECT`, `ORDER BY`, `SELECT DISTINCT`, `WHERE`, `LIMIT`, `BETWEEN`, `LIKE`, `GROUP BY`, `JOIN`
+- Learn how to write basic SQL queries to create, update and delete records and tables using the following statements: `INSERT`, `UPDATE`, `DELETE`, `CREATE TABLE`, `ALTER TABLE`, `DROP TABLE`
+- Learn about SQL injection
 
 ### Tooling
 
