@@ -71,7 +71,19 @@ So far we've focussed on reading records using [the SQL SELECT statement](https:
 
 Let's try it out with an example using the sample database (again you can use [the online SQLite viewer](https://inloop.github.io/sqlite-viewer/) and upload [our sample database file](./chinook.sqlite)). 
 
-- Add yourself as an `Artist` in the database
+<details><summary>Add yourself as an `Artist` in the database</summary>
+
+```sql
+INSERT INTO Artist (Name) VALUES ('John Doe');
+
+SELECT
+	*
+FROM
+	Artist
+WHERE
+	Name = 'John Doe';
+```
+</details>
 
 Extra resources:
 
@@ -81,7 +93,24 @@ Extra resources:
 
 [An SQL UPDATE statement](https://en.wikipedia.org/wiki/Update_(SQL)) changes the data of one or more records in a table. Either all the rows can be updated, or a subset may be chosen using a condition.
 
-- Update your `Artist` name to something more catchy
+<details><summary>Update your `Artist` name to something more catchy</summary>
+
+```sql
+UPDATE
+	Artist
+SET
+	Name = 'John Doe'
+WHERE
+	Name = 'DJ JD';
+
+SELECT
+	*
+FROM
+	Artist
+WHERE
+	Name = 'DJ JD';
+```
+</details>
 
 Extra resources:
 
@@ -91,7 +120,20 @@ Extra resources:
 
 [An SQL DELETE statement](https://en.wikipedia.org/wiki/Delete_(SQL)) removes one or more records from a table.
 
-- Delete your `Artist` record from the database
+<details><summary>Delete your `Artist` record from the database</summary>
+
+```sql
+DELETE FROM Artist
+WHERE Name = 'DJ JD';
+
+SELECT
+	*
+FROM
+	Artist
+WHERE
+	Name = 'DJ JD';
+```
+</details>
 
 Extra resources:
 
