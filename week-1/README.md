@@ -47,7 +47,7 @@ Check out this week's exercises [here](../isolate/week-1/EXERCISES.md). You can 
 
 You will be learning to use [sqlite3](https://github.com/mapbox/node-sqlite3/wiki/API), a module that allows you to query your SQLite database file.
 
-- [CLI Query Scripts](../integrate/cli-query-scripts)
+- [CLI Query Scripts](../integrate/cli-query-scripts-week-1)
 
 ---
 ---
