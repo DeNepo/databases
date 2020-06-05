@@ -19,7 +19,8 @@
 
 ## Learning Objectives
 
-... specifically for this week
+- Learn about primary keys, foreign keys, relationships and SQL injection
+- Learn how to write basic SQL queries to create, update and delete records and tables using the following statements: `INSERT`, `UPDATE`, `DELETE`, `CREATE TABLE`, `ALTER TABLE`, `DROP TABLE`
 
 ---
 ---
@@ -30,7 +31,7 @@
 > - [Review the Weekly Assignments guide](https://home.hackyourfuture.be/students/weekly-assignments)
 > - [Create your Homework Issue](https://home.hackyourfuture.be/students/homework-submission#homework-issues)
 
-... things to read/watch/try before coming in on sunday ...
+Just as last week we want to focus on practice. But some preparation never hurts, right? Get a head start [here](./PREPWORK.md).
 
 ---
 ---
