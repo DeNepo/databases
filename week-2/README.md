@@ -44,11 +44,11 @@ Just as last week we want to focus on practice. But some preparation never hurts
 
 ### Isolate
 
-- \_: [examples](../isolate/_/REVIEW.md), [exercises](../isolate/_/REVIEW.md)
+Check out this week's exercises [here](../isolate/week-2/EXERCISES.md). You can study them in the [SQLite Tutorial Sandbox](https://www.sqlitetutorial.net/tryit/).
 
 ### Integrate
 
-- [\_](https://github.com/hackyourfuturebelgium/coming-soon) (starter repo)
+- [CLI Query Scripts](../integrate/cli-query-scripts-week-2) (week 1)
 
 ---
 ---
@@ -56,8 +56,6 @@ Just as last week we want to focus on practice. But some preparation never hurts
 ## Assignments
 
 ### Suggested Study
-
-- [\_](_)
 
 ---
 
@@ -69,17 +67,37 @@ Just as last week we want to focus on practice. But some preparation never hurts
 
 ### Project
 
-#### `repo-name`
+#### Checklist
 
-> [project type](https://home.hackyourfuture.be/students/homework-submission#projects)
+```md
+- [ ] [repo](https://github.com/user-name/project-name)
+- [ ] [live demo](heroku-url)
+- [ ] A `development-strategy.md`
+- [ ] One branch per step in your `development-strategy.md`
+- [ ] A complete README.md
+- [ ] A working API in the `/api` directory
+- [ ] A frontend for you API in the `/client` folder
+```
 
-This week's project is to study the [link to project (starter repo, tutorial, ...)](_).  _more about the project, what it covers, any extra info_
+#### `the-musicker`
 
-You will be expected to turn in your code from his tutorial on a new repository called `repo-name`.  This should be a complete project repository including:
+Build an app that allows users to investigate the Songs, Artists and Playlists in the Chinook database.  Users can also create, update and delete playlists.
 
-- A `development-strategy.md` file to explain how you built the app in small pieces (this file doesn't need to match the tutorial!)
-- One branch per step in your `development-strategy.md`
-- _something about how to organize the code_
-- _any more requirements_
+[The Musicker starter repository](https://github.com/hackyourfuturebelgium/the-musicker) has a list of user stories for inspiration in a file called `user-stories.md`, you can think of these as guidelines more than rules.
 
-You will be assessed not only on your live demo, but also on the quality of your code, the correctness of your branches, the organization of your code, and the completeness of your README.
+#### Deployment
+
+Go for it!
+
+__Directly from GitHub__
+
+- [FCC Article](https://www.freecodecamp.org/news/how-to-deploy-a-nodejs-app-to-heroku-from-github-without-installing-heroku-on-your-machine-433bec770efe/)
+- [Heroku CI](https://www.heroku.com/continuous-integration)
+
+__From Terminal__
+
+- [Heroku Getting Started](https://devcenter.heroku.com/articles/getting-started-with-nodejs)
+- [Scotch Tutorial](https://scotch.io/tutorials/how-to-deploy-a-node-js-app-to-heroku)
+- [Heroku devhints](https://devhints.io/heroku)
+- [Heroku DevCenter: Node.js Support](https://devcenter.heroku.com/articles/nodejs-support)
+- [Heroku DevCenter: Advanced Automation](https://devcenter.heroku.com/articles/multiple-environments#advanced-linking-local-branches-to-remote-apps)
