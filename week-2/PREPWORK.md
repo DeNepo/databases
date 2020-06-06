@@ -93,7 +93,7 @@ Extra resources:
 
 [An SQL UPDATE statement](https://en.wikipedia.org/wiki/Update_(SQL)) changes the data of one or more records in a table. Either all the rows can be updated, or a subset may be chosen using a condition.
 
-<details><summary>Update your artist name to something more catchy</summary>
+<details><summary>Update the artist's name to something more catchy</summary>
 
 ```sql
 UPDATE
@@ -120,7 +120,7 @@ Extra resources:
 
 [An SQL DELETE statement](https://en.wikipedia.org/wiki/Delete_(SQL)) removes one or more records from a table.
 
-<details><summary>Delete your artist</summary>
+<details><summary>Delete the artist again</summary>
 
 ```sql
 DELETE FROM Artist

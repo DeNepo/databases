@@ -20,6 +20,7 @@
 ## Learning Objectives
 
 - Learn about primary keys, foreign keys, relationships and SQL injection
+- Learn how to write SQL queries to read data using following statements: `JOIN`
 - Learn how to write basic SQL queries to create, update and delete records and tables using the following statements: `INSERT`, `UPDATE`, `DELETE`, `CREATE TABLE`, `ALTER TABLE`, `DROP TABLE`
 
 ---
@@ -44,11 +45,11 @@ Just as last week we want to focus on practice. But some preparation never hurts
 
 ### Isolate
 
-Check out this week's exercises [here](../isolate/week-2/EXERCISES.md). You can study them in the [SQLite Tutorial Sandbox](https://www.sqlitetutorial.net/tryit/).
+Check out this week's exercises [here](../isolate/week-2/EXERCISES.md).
 
 ### Integrate
 
-- [CLI Query Scripts](../integrate/cli-query-scripts-week-2) (week 1)
+- [CLI Query Scripts](../integrate/cli-query-scripts-week-2) (week 2)
 
 ---
 ---
