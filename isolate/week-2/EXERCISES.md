@@ -55,21 +55,7 @@ FROM
 ```
 </details>
 
-<details><summary>5. Show all artists</summary>
-
-```sql
-SELECT
-	title AS AlbumTitle,
-	Track.Name AS TrackName,
-	Artist.Name AS ArtistName
-FROM
-	Album
-	JOIN Track ON Track.AlbumId = Album.AlbumId
-	JOIN Artist ON Artist.ArtistId = Album.ArtistId;
-```
-</details>
-
-<details><summary>6. Show all employees' full name, title and their superior's full name and title only if they have a superior</summary>
+<details><summary>5. Show all employees' full name, title and their superior's full name and title only if they have a superior</summary>
 
 ```sql
 SELECT
@@ -83,7 +69,7 @@ FROM
 ```
 </details>
 
-<details><summary>7. Show the number of invoice lines' per invoice billing country</summary>
+<details><summary>6. Show the number of invoice lines' per invoice billing country</summary>
 
 ```sql
 SELECT
@@ -97,7 +83,7 @@ GROUP BY
 ```
 </details>
 
-<details><summary>8. Show the number of invoices per customer; show customers' full name</summary>
+<details><summary>7. Show the number of invoices per customer; show customers' full name</summary>
 
 ```sql
 SELECT
@@ -111,7 +97,7 @@ GROUP BY
 ```
 </details>
 
-<details><summary>9. Show the total per customer; show customers' full name</summary>
+<details><summary>8. Show the total per customer; show customers' full name</summary>
 
 ```sql
 SELECT
@@ -125,7 +111,7 @@ GROUP BY
 ```
 </details>
 
-<details><summary>10. Show the full name of the customer with the highest total</summary>
+<details><summary>9. Show the full name of the customer with the highest total</summary>
 
 ```sql
 SELECT
@@ -141,7 +127,7 @@ LIMIT 1;
 ```
 </details>
 
-<details><summary>11. Show all invoices for which the total is not equal to the total of all invoice lines' total; show invoices' id, invoices' total, invoice lines' total</summary>
+<details><summary>10. Show all invoices for which the total is not equal to the total of all invoice lines' total; show invoices' id, invoices' total, invoice lines' total</summary>
 
 ```sql
 SELECT

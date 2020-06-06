@@ -252,7 +252,7 @@ WHERE
 -- The || operator is "concatenate" - it joins together the two strings of its operands.
 SELECT
     FirstName || ' ' || LastName as FullName,
-  Email
+    Email
 FROM
     Customer
 WHERE
