@@ -1,7 +1,7 @@
 # Week 1
 In these exercises we focus solely on writing SQL. Use [the online SQLite viewer](https://inloop.github.io/sqlite-viewer/), upload [our sample database file](chinook.sqlite) and start writing those queries!
 ## Select
-<details><summary>Show all artists</summary>
+<details><summary>1. Show all artists</summary>
 
 ```sql
 SELECT
@@ -10,7 +10,7 @@ FROM
     Artist;
 ```
 </details>
-<details><summary>Show all artists' names</summary>
+<details><summary>2. Show all artists' names</summary>
 
 ```sql
 SELECT
@@ -19,7 +19,7 @@ FROM
     Artist;
 ```
 </details>
-<details><summary>Show all tracks</summary>
+<details><summary>3. Show all tracks</summary>
 
 ```sql
 SELECT
@@ -28,7 +28,7 @@ FROM
     Track;
 ```
 </details>
-<details><summary>Show all tracks' name and price</summary>
+<details><summary>4. Show all tracks' name and price</summary>
 
 ```sql
 SELECT
@@ -40,7 +40,7 @@ FROM
 </details>
 
 ## Count
-<details><summary>Show the number of artists</summary>
+<details><summary>5. Show the number of artists</summary>
 
 ```sql
 SELECT count(*)
@@ -49,7 +49,7 @@ FROM Artist;
 </details>
 
 ## Order By
-<details><summary>Show all tracks' name and duration, sorted from longest to shortest duration</summary>
+<details><summary>6. Show all tracks' name and duration, sorted from longest to shortest duration</summary>
 
 ```sql
 SELECT
@@ -61,7 +61,7 @@ ORDER BY
     Milliseconds DESC;
 ```
 </details>
-<details><summary>Show all tracks' name and duration in minutes, sorted from longest to shortest duration</summary>
+<details><summary>7. Show all tracks' name and duration in minutes, sorted from longest to shortest duration</summary>
 
 ```sql
 SELECT
@@ -73,7 +73,7 @@ ORDER BY
     Milliseconds DESC;
 ```
 </details>
-<details><summary>Show all invoices' id and total, sorted from lowest to highest total</summary>
+<details><summary>8. Show all invoices' id and total, sorted from lowest to highest total</summary>
 
 ```sql
 SELECT
@@ -87,7 +87,7 @@ ORDER BY
 </details>
 
 ## Select Distinct
-<details><summary>Show all unique track composers' names</summary>
+<details><summary>9. Show all unique track composers' names</summary>
 
 ```sql
 SELECT DISTINCT
@@ -96,7 +96,7 @@ FROM
     Track;
 ```
 </details>
-<details><summary>Show all unique unit prices of tracks</summary>
+<details><summary>10. Show all unique unit prices of tracks</summary>
 
 ```sql
 SELECT DISTINCT
@@ -105,7 +105,7 @@ FROM
     Track;
 ```
 </details>
-<details><summary>Show the number of unique track composers</summary>
+<details><summary>11. Show the number of unique track composers</summary>
 
 ```sql
 SELECT
@@ -116,7 +116,7 @@ FROM
 </details>
 
 ## Select Limit
-<details><summary>Show the id and total of the ten highest totalling invoices</summary>
+<details><summary>12. Show the id and total of the ten highest totalling invoices</summary>
 
 ```sql
 SELECT
@@ -131,7 +131,7 @@ LIMIT 10;
 </details>
 
 ## Where
-<details><summary>Show all tracks where Philip Glass is the composer</summary>
+<details><summary>13. Show all tracks where Philip Glass is the composer</summary>
 
 ```sql
 SELECT
@@ -141,7 +141,7 @@ FROM
 WHERE Composer = 'Philip Glass'
 ```
 </details>
-<details><summary>Show all customers' first name and country who live not in USA</summary>
+<details><summary>14. Show all customers' first name and country who live not in USA</summary>
 
 ```sql
 SELECT
@@ -163,7 +163,7 @@ WHERE
     Country IS NOT 'USA';
 ```
 </details>
-<details><summary>Show the customer's first name for whom we do not have the phone number</summary>
+<details><summary>15. Show the customer's first name for whom we do not have the phone number</summary>
 
 ```sql
 SELECT
@@ -174,7 +174,7 @@ WHERE
     Phone IS NULL;
 ```
 </details>
-<details><summary>Show all employees' first name, last name and title whose title is IT Staff</summary>
+<details><summary>16. Show all employees' first name, last name and title whose title is IT Staff</summary>
 
 ```sql
 SELECT
@@ -187,7 +187,7 @@ WHERE
     Title = 'IT Staff';
 ```
 </details>
-<details><summary>Show all invoices' id and total with a total bigger than 20</summary>
+<details><summary>17. Show all invoices' id and total with a total bigger than 20</summary>
 
 ```sql
 SELECT
@@ -199,7 +199,7 @@ WHERE
     Total > 20;
 ```
 </details>
-<details><summary>Show the number of tracks where the unit price is not 0.99</summary>
+<details><summary>18. Show the number of tracks where the unit price is not 0.99</summary>
 
 ```sql
 SELECT count(*)
@@ -208,7 +208,7 @@ FROM
 where UnitPrice != '0.99';
 ```
 </details>
-<details><summary>Show all tracks' name and size in megabytes, of which the size is smaller than 1 megabyte</summary>
+<details><summary>19. Show all tracks' name and size in megabytes, of which the size is smaller than 1 megabyte</summary>
 
 ```sql
 SELECT
@@ -233,7 +233,7 @@ WHERE
 </details>
 
 ## Where Like
-<details><summary>Show all employees' first name, last name and title whose title mentions IT</summary>
+<details><summary>20. Show all employees' first name, last name and title whose title mentions IT</summary>
 
 ```sql
 SELECT
@@ -246,7 +246,7 @@ WHERE
     Title LIKE '%IT%';
 ```
 </details>
-<details><summary>Show all customers' full name and email, whose email address is of the gmail.com domain</summary>
+<details><summary>21. Show all customers' full name and email, whose email address is of the gmail.com domain</summary>
 
 ```sql
 -- The || operator is "concatenate" - it joins together the two strings of its operands.
@@ -261,7 +261,7 @@ WHERE
 </details>
 
 ## Where And
-<details><summary>Show all employees' first name, last name, title and city whose title mentions IT and that live in the city of Calgary</summary>
+<details><summary>22. Show all employees' first name, last name, title and city whose title mentions IT and that live in the city of Calgary</summary>
 
 ```sql
 SELECT
@@ -278,7 +278,7 @@ WHERE
 </details>
 
 ## Where Or
-<details><summary>Show all employees' first name, last name, title and city whose title mentions IT and that live in the city of Calgary or Lethbridge</summary>
+<details><summary>23. Show all employees' first name, last name, title and city whose title mentions IT and that live in the city of Calgary or Lethbridge</summary>
 
 ```sql
 SELECT
@@ -296,7 +296,7 @@ WHERE
 </details>
 
 ## Where Between
-<details><summary>Show all invoices' id and invoice date that got invoiced in the first quarter of 2009</summary>
+<details><summary>24. Show all invoices' id and invoice date that got invoiced in the first quarter of 2009</summary>
 
 ```sql
 SELECT
@@ -311,7 +311,7 @@ WHERE
 </details>
 
 ## Where In
-<details><summary>Show the number of customers who live in Argentina, Brazil, Canada, Chile and USA</summary>
+<details><summary>25. Show the number of customers who live in Argentina, Brazil, Canada, Chile and USA</summary>
 
 ```sql
 SELECT
@@ -322,7 +322,7 @@ WHERE
     Country IN('Argentina', 'Brazil', 'Canada', 'Chile', 'USA');
 ```
 </details>
-<details><summary>Show the number of customers who do not live in Argentina, Brazil, Canada, Chile and USA</summary>
+<details><summary>26. Show the number of customers who do not live in Argentina, Brazil, Canada, Chile and USA</summary>
 
 ```sql
 SELECT
@@ -335,7 +335,7 @@ WHERE
 </details>
 
 ## Min, Sum, Max, Avg
-<details><summary>Show the minimum duration of all tracks</summary>
+<details><summary>27. Show the minimum duration of all tracks</summary>
 
 ```sql
 SELECT
@@ -344,7 +344,7 @@ FROM
     Track;
 ```
 </details>
-<details><summary>Show the sum of all invoice totals</summary>
+<details><summary>28. Show the sum of all invoice totals</summary>
 
 ```sql
 SELECT
@@ -353,7 +353,7 @@ FROM
     Invoice;
 ```
 </details>
-<details><summary>Show the maximum size of all tracks in megabytes</summary>
+<details><summary>29. Show the maximum size of all tracks in megabytes</summary>
 
 ```sql
 SELECT
@@ -362,7 +362,7 @@ FROM
     Track;
 ```
 </details>
-<details><summary>Show the average track duration in minutes</summary>
+<details><summary>30. Show the average track duration in minutes</summary>
 
 ```sql
 SELECT
@@ -371,7 +371,7 @@ FROM
     Track;
 ```
 </details>
-<details><summary>Show the rounded average invoice total (rounded to 2 digits to the right of the decimal point)</summary>
+<details><summary>31. Show the rounded average invoice total (rounded to 2 digits to the right of the decimal point)</summary>
 
 ```sql
 SELECT
@@ -382,7 +382,7 @@ FROM
 </details>
 
 ## Group By
-<details><summary>Show the number of tracks per playlist</summary>
+<details><summary>32. Show the number of tracks per playlist</summary>
 
 ```sql
 SELECT
@@ -394,7 +394,7 @@ GROUP BY
     PlaylistId;
 ```
 </details>
-<details><summary>Show the number of invoice lines per invoice</summary>
+<details><summary>33. Show the number of invoice lines per invoice</summary>
 
 ```sql
 SELECT
@@ -406,7 +406,7 @@ GROUP BY
     InvoiceId;
 ```
 </details>
-<details><summary>Show the sum of all line items' total per invoice</summary>
+<details><summary>34. Show the sum of all line items' total per invoice</summary>
 
 ```sql
 SELECT
@@ -418,7 +418,7 @@ GROUP BY
     InvoiceId;
 ```
 </details>
-<details><summary>Show the average line item total per invoice</summary>
+<details><summary>35. Show the average line item total per invoice</summary>
 
 ```sql
 SELECT
@@ -430,7 +430,7 @@ GROUP BY
     InvoiceId;
 ```
 </details>
-<details><summary>Show the rounded average duration in minutes of tracks per composer</summary>
+<details><summary>36. Show the rounded average duration in minutes of tracks per composer</summary>
 
 ```sql
 SELECT
