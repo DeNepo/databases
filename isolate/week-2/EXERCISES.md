@@ -97,7 +97,7 @@ GROUP BY
 ```
 </details>
 
-<details><summary>78. Show the number of invoices per customer; show customers' full name</summary>
+<details><summary>8. Show the number of invoices per customer; show customers' full name</summary>
 
 ```sql
 SELECT
