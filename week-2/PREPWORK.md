@@ -56,6 +56,8 @@ Extra resources:
 - CROSS JOIN
 - Self-join
 
+Note that [for SQLite](https://www.sqlite.org/omitted.html) LEFT OUTER JOIN is implemented, but not RIGHT OUTER JOIN or FULL OUTER JOIN.
+
 Extra resources:
 
 - [SQLite Tutorial - Join](https://www.sqlitetutorial.net/sqlite-join/)
