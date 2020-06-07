@@ -10,6 +10,24 @@ SELECT
 FROM
 	Album
 	LEFT JOIN Artist ON Artist.ArtistId = Album.ArtistId;
+
+--OR using USING
+
+SELECT
+	title AS AlbumTitle,
+	Artist.Name AS ArtistName
+FROM
+	Album
+	LEFT JOIN Artist USING(ArtistId);
+
+--OR using NATURAL
+
+SELECT
+	title AS AlbumTitle,
+	Artist.Name AS ArtistName
+FROM
+	Album
+	NATURAL LEFT JOIN Artist;
 ```
 </details>
 
