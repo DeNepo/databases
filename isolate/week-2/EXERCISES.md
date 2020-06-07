@@ -9,7 +9,7 @@ SELECT
 	Artist.Name AS ArtistName
 FROM
 	Album
-	JOIN Artist ON Artist.ArtistId = Album.ArtistId;
+	LEFT JOIN Artist ON Artist.ArtistId = Album.ArtistId;
 ```
 </details>
 
