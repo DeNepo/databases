@@ -49,7 +49,7 @@ Check out this week's exercises [here](../isolate/week-2/EXERCISES.md).
 
 ### Integrate
 
-- [CLI Query Scripts](../integrate/cli-query-scripts-week-2) (week 2)
+Instead of doing some more queries, just with a JavaScript wrapper let's immediately start working on the assignment project!
 
 ---
 ---
