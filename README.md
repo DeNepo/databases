@@ -110,7 +110,7 @@ Helpful resources for this module
 
 This module's project is a two-week group project.  Anything goes!  Here's a [starter repository](https://github.com/HackYourFutureBelgium/restful-chinook) you can use, but you don't have to.
 
-```md
+```markdown
 - [ ] [repo](https://github.com/_/_) (with a complete README)
 - Project Planning
   - [ ] [Backlog](https://github.com/_/_/tree/master/project-planning/backlog.md)
