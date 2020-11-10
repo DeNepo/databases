@@ -1,1 +1,0 @@
-example projects to study

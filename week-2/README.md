@@ -1,21 +1,3 @@
-# Databases
-
-[<< Week 1](../week-1/README.md) | [Main Page](../README.md)
-
-## Week 2
-
-- [Learning Objectives](#learning-objectives)
-- [Prep Work](#prep-work)
-- [Lesson Plan](#lesson-plan)
-  - [Isolate](#isolate)
-  - [Integrate](#integrate)
-- [Assignments](#assignments)
-  - [Suggested Study](#suggested-study)
-  - [Exercises](#exercises)
-  - [Project](#project)
-
----
----
 
 ## Learning Objectives
 
@@ -23,19 +5,6 @@
 - Learn how to write SQL queries to read data using following statements: `JOIN`
 - Learn how to write basic SQL queries to create, update and delete records and tables using the following statements: `INSERT`, `UPDATE`, `DELETE`, `CREATE TABLE`, `ALTER TABLE`, `DROP TABLE`
 
----
----
-
-## Prep Work
-
-> First things first:
-> - [Review the Weekly Assignments guide](https://home.hackyourfuture.be/students/weekly-assignments)
-> - [Create your Homework Issue](https://home.hackyourfuture.be/students/homework-submission#homework-issues)
-
-Just as last week we want to focus on practice. But some preparation never hurts, right? Get a head start [here](./PREPWORK.md).
-
----
----
 
 ## Lesson Plan
 
@@ -51,18 +20,6 @@ Check out this week's exercises [here](../isolate/week-2/EXERCISES.md).
 
 Instead of doing some more queries, just with a JavaScript wrapper let's immediately start working on the assignment project!
 
----
----
-
-## Assignments
-
-### Suggested Study
-
----
-
-### Exercises
-
-- :egg: [Chinook Queries](https://github.com/HackYourFutureBelgium/chinook-queries)
 
 ---
 

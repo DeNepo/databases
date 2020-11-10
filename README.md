@@ -1,30 +1,24 @@
 # Databases
 
+> I literally have a massive database of cat sounds.
+> - [El-P](https://www.imdb.com/name/nm1474803/)
+
 ## Contents
 
-- [Module Summary](#module-summary)
 - [Learning Objectives](#learning-objectives)
-- [Module Projects](#module-projects)
-- Weekly Details:
-  - Week 1: [assignments](./week-1/README.md), [lesson plan](https://hackyourfuture.be/databases/week-1)
-  - Week 2: [assignments](./week-2/README.md), [lesson plan](https://hackyourfuture.be/databases/week-2)
-- Study Materials:
-  - [Isolate](./isolate/README.md) - examples and exercises
-  - [Integrate](./integrate/README.md) - projects to study
-  - [Class Recordings](./class-recordings.md)
-  - [Study Links](https://study.hackyourfuture.be) (external)
-- [Curriculum](https://home.hackyourfuture.be/curriculum) (external)
-- [HYF Home](https://home.hackyourfuture.be/) (external)
-
----
-
-## Module Summary
-
-[TOP](#contents)
+- [Suggested Study](#suggested-study)
+- Break-Down
+  - [Week 1](#week-1)
+  - [Week 2](#week-2)
+- [Class Recordings](#class-recordings)
+- [study.hackyourfuture.be](https://study.hackyourfuture.be)
+- [home.hackyourfuture.be](https://home.hackyourfuture.be/)
 
 ---
 
 ## Learning Objectives
+
+What can you expect to learn in this module?
 
 ### Programming Skills
 
@@ -42,10 +36,151 @@
 - [SQLite](https://www.sqlite.org/index.html) - a SQL database engine
 - [node-sqlite3](https://github.com/mapbox/node-sqlite3)
 
-[TOP](#contents)
+### Module Projects
+
+Projects in this module will use the same folder structure & boilerplate code you learned in [the previous `web-apps` module](https://github.com/hackyourfuturebelgium/web-apps), but with an SQLite database instead of a .json file.
+
+[TOP](#databases)
 
 ---
 
-## Module Projects
+## Suggested Study
 
-Projects in this module will use the same folder structure & boilerplate code you learned in [the previous `web-apps` module](https://github.com/hackyourfuturebelgium/web-apps)
+Helpful resources for this module
+
+<details open>
+<summary>expand/collapse</summary>
+<br>
+
+#### SQL
+
+- [sqlteaching](https://www.sqlteaching.com/)
+- [SQL Murder Mystery](https://mystery.knightlab.com/)
+
+#### Tooling
+
+- [TablePlus](https://tableplus.com/) is a modern, native, and friendly GUI tool for several relational databases: SQLite, MySQL, PostgreSQL & more.
+- [DB Browser for SQLite](https://sqlitebrowser.org/) is a high quality, visual, open source tool to create, design, and edit database files compatible with SQLite.
+- [SQLite Viewer](https://inloop.github.io/sqlite-viewer/) is an online SQLite editor.
+- [SQLite Editor by SQLite Tutorial](https://www.sqlitetutorial.net/tryit/) is also an online SQLite editor, specifically for the Chinook sample database.
+- [vscode-sqlite](https://marketplace.visualstudio.com/items?itemName=alexcvzz.vscode-sqlite) is a VSCode extension to explore and query SQLite databases.
+
+#### SQLite & Node.js
+
+- [SQLite Node.js Guide](https://www.sqlitetutorial.net/sqlite-nodejs/)
+- [node-sqlite3 has good docs](https://github.com/mapbox/node-sqlite3/wiki/)
+- [developerhowto tutorial article](https://developerhowto.com/2018/12/29/build-a-rest-api-with-node-js-and-express-js/)
+- PetsApp: [video tutorial (SQLite starts at #7)](https://www.youtube.com/watch?v=2PCaD0Y4MP4&list=PLzV58Zm8FuBIWu1zvGRUfn0Xh6HXRg9cG&index=7), [starter code & finished to study](https://github.com/pgbovine/COGS121)
+
+</details>
+<br>
+
+[TOP](#databases)
+
+---
+
+## Week 1
+
+- Familiarize some theoretical concepts: information systems, databases, RDMBs, relational models, tables, records, attributes, fields and keys
+- Learn how to navigate a (SQLite) database
+- Learn how to write basic SQL queries using the following statements: `SELECT`, `ORDER BY`, `SELECT DISTINCT`, `WHERE`, `LIMIT`, `BETWEEN`, `LIKE`, `GROUP BY`
+- Learn how to communicate with SQLite databases in JavaScript
+
+<details open>
+<summary>expand/collapse</summary>
+<br>
+
+### Before Class
+
+[./week-1/prep-work.md](./week-1/prep-work.md)
+
+### During Class
+
+#### Before Break
+
+[./week-1/sql-exercises.md](./week-1/sql-exercises.md)
+
+#### After Break
+
+[./week-1/node-query-scripts/README.md](./week-1/node-query-scripts/README.md)
+
+### After Class
+
+#### Impress Yourselves
+
+This module's project is a two-week group project.  Anything goes!  Here's a [starter repository](https://github.com/HackYourFutureBelgium/restful-chinook) you can use, but you don't have to.
+
+```md
+- [ ] [repo](https://github.com/_/_) (with a complete README)
+- Project Planning
+  - [ ] [Backlog](https://github.com/_/_/tree/master/project-planning/backlog.md)
+  - [ ] [Development Strategy](https://github.com/_/_/tree/master/project-planning/development-strategy.md)
+  - [ ] [Project board](https://github.com/_/_/projects/_)
+- Implementation
+  - [ ] Deployed - [deployment link]()
+  - [ ] A working frontend in the `/client` directory
+  - [ ] Uses the SQLite Chinook database
+  - [ ] A working `/api` to access the the database
+```
+
+</details>
+<br>
+
+[TOP](#databases)
+
+---
+
+## Week 2
+
+- Learn about primary keys, foreign keys, relationships and SQL injection
+- Learn how to write SQL queries to read data using following statements: `JOIN`
+- Learn how to write basic SQL queries to create, update and delete records and tables using the following statements: `INSERT`, `UPDATE`, `DELETE`, `CREATE TABLE`, `ALTER TABLE`, `DROP TABLE`
+
+<details open>
+<summary>expand/collapse</summary>
+<br>
+
+### Before Class
+
+[./week-2/prep-work.md](./week-2/prep-work.md)
+
+### During Class
+
+#### Before Break
+
+[./week-2/sql-exercises.md](./week-2/sql-exercises.md)
+
+#### After Break
+
+[./week-2/node-query-scripts/README.md](./week-2/node-query-scripts/README.md)
+
+### After Class
+
+Continue working on your projects from last week.
+
+</details>
+<br>
+
+[TOP](#databases)
+
+---
+
+## Class Recordings
+
+- **Students**: Here you can find recordings of this module from past classes.  Enjoy!
+- **Coaches**: When sending your PR's with links please ...
+  - Indicate which class you were teaching
+  - Which week it was (if the module is more than 1 week)
+  - Give your name
+  - and a helpful description
+
+## Class 7 & 8
+
+> [Dimitri Roose](https://github.com/sjimi), [Stijn Wynants](https://stackoverflow.com/users/1499018/stijn-wynants)
+
+1. [Week 1](https://vimeo.com/424516925)
+2. Week 2:
+   - [Part 1](https://vimeo.com/426980670)
+   - [Part 2](https://vimeo.com/426995522)
+   - [Part 3](https://vimeo.com/427003854)
+   - [Part 4](https://vimeo.com/427039078)
