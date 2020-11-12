@@ -67,10 +67,12 @@ Helpful resources for this module
 
 #### SQLite & Node.js
 
-- [SQLite Node.js Guide](https://www.sqlitetutorial.net/sqlite-nodejs/)
-- [node-sqlite3 has good docs](https://github.com/mapbox/node-sqlite3/wiki/)
-- [developerhowto tutorial article](https://developerhowto.com/2018/12/29/build-a-rest-api-with-node-js-and-express-js/)
-- PetsApp: [video tutorial (SQLite starts at #7)](https://www.youtube.com/watch?v=2PCaD0Y4MP4&list=PLzV58Zm8FuBIWu1zvGRUfn0Xh6HXRg9cG&index=7), [starter code & finished to study](https://github.com/pgbovine/COGS121)
+- [./node-query-scripts](./node-query-scripts) - practice querying an SQLite database from Node.js
+- References
+  - [SQLite Node.js Guide](https://www.sqlitetutorial.net/sqlite-nodejs/)
+  - [node-sqlite3 has good docs](https://github.com/mapbox/node-sqlite3/wiki/)
+  - [developerhowto tutorial article](https://developerhowto.com/2018/12/29/build-a-rest-api-with-node-js-and-express-js/)
+  - PetsApp: [video tutorial (SQLite starts at #7)](https://www.youtube.com/watch?v=2PCaD0Y4MP4&list=PLzV58Zm8FuBIWu1zvGRUfn0Xh6HXRg9cG&index=7), [starter code & finished to study](https://github.com/pgbovine/COGS121)
 
 </details>
 <br>
@@ -85,6 +87,7 @@ Helpful resources for this module
 - Learn how to navigate a (SQLite) database
 - Learn how to write basic SQL queries using the following statements: `SELECT`, `ORDER BY`, `SELECT DISTINCT`, `WHERE`, `LIMIT`, `BETWEEN`, `LIKE`, `GROUP BY`
 - Learn how to communicate with SQLite databases in JavaScript
+- Plan and scope projects around your data
 
 <details open>
 <summary>expand/collapse</summary>
@@ -102,13 +105,15 @@ Helpful resources for this module
 
 #### After Break
 
-[./week-1/node-query-scripts/README.md](./week-1/node-query-scripts/README.md)
+Begin planning and scoping your 2-week project.
 
 ### After Class
 
 #### Impress Yourselves
 
-This module's project is a two-week group project.  Anything goes!  Here's a [starter repository](https://github.com/HackYourFutureBelgium/restful-chinook) you can use, but you don't have to.
+This module's project is a two-week group project.  Anything goes! The most important thing to keep in mind for this module's project is _scoping_, it's better to build something small that works than something big that doesn't.
+
+Here's a [starter repository](https://github.com/HackYourFutureBelgium/restful-chinook) you can use, but you don't have to.
 
 ```markdown
 - [ ] [repo](https://github.com/_/_) (with a complete README)
@@ -152,11 +157,11 @@ This module's project is a two-week group project.  Anything goes!  Here's a [st
 
 #### After Break
 
-[./week-2/node-query-scripts/README.md](./week-2/node-query-scripts/README.md)
+Check in on project scoping and progress. Remember: small and working is better than big and broken!
 
 ### After Class
 
-Continue working on your projects from last week.
+Finish working on your projects from last week.
 
 </details>
 <br>

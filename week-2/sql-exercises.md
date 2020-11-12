@@ -1,5 +1,6 @@
-# Week 2
-In these exercises we focus solely on writing SQL. You can use the [the online SQLite viewer](https://inloop.github.io/sqlite-viewer/) again or use one of the tools suggested in the previous class. 
+# Round 2
+
+In these exercises we focus solely on writing SQL. You can use the [the online SQLite viewer](https://inloop.github.io/sqlite-viewer/) again or use one of the tools suggested in the previous class.
 ## Joins
 <details><summary>1. Show all albums' title and artist name</summary>
 
