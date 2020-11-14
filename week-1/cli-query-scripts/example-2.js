@@ -13,8 +13,8 @@ const userInput = {
 
 // MIN, MAX, SUM, AVG, ...
 const queryString = `
-  SELECT ${userInput.keyword}(total)
-  FROM invoices;`;
+  SELECT ${userInput.keyword}(Total)
+  FROM invoice;`;
 
 db.all(queryString, (err, rows) => {
   if (err) {
