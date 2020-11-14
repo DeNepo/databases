@@ -1,8 +1,5 @@
 # Databases
 
-> I literally have a massive database of cat sounds.
-> - [El-P](https://www.imdb.com/name/nm1474803/)
-
 ## Contents
 
 - [Learning Objectives](#learning-objectives)
@@ -82,7 +79,7 @@ Projects in this module will use the same folder structure & boilerplate code yo
 
 ### Before Class
 
-The goal is to make this a very hands-on class. Nonetheless it's important to familiarize yourself with some theoretical concepts surrounding databases before diving in. Dive in here [here](./week-1/prep-work.md).
+The goal is to make this a very hands-on class. Nonetheless it's important to familiarize yourself with some theoretical concepts surrounding databases before diving in. Dive in  [here](./week-1/prep-work.md).
 
 ### During Class
 
@@ -92,22 +89,20 @@ Check out this week's exercises [here](./week-1/sql-exercises.md).
 
 #### After Break
 
-Begin planning and scoping your 2-week project.
+Across the two weeks of this module you will be working on a project per group. You get to decide as group what you are going to build, the only requirement is that you use [the Chinook database](./chinook-database/chinook.sqlite). So get creative, but it's important to scope your work so that you end up with something that works. The coaches will challenges you on your idea and scope.
 
 ### After Class
-
-#### Impress Yourselves
 
 This module's project is a two-week group project.  Anything goes! The most important thing to keep in mind for this module's project is _scoping_, it's better to build something small that works than something big that doesn't.
 
 Here's a [starter repository](https://github.com/HackYourFutureBelgium/restful-chinook) you can use, but you don't have to.
 
-```markdown
-- [ ] [repo](https://github.com/_/_) (with a complete README)
+```
+- [ ] [Repository](https://github.com/_/_) (with a complete README)
 - Project Planning
   - [ ] [Backlog](https://github.com/_/_/tree/master/project-planning/backlog.md)
   - [ ] [Development Strategy](https://github.com/_/_/tree/master/project-planning/development-strategy.md)
-  - [ ] [Project board](https://github.com/_/_/projects/_)
+  - [ ] [Project Board](https://github.com/_/_/projects/_)
 - Implementation
   - [ ] Deployed - [deployment link]()
   - [ ] A working frontend in the `/client` directory
@@ -139,11 +134,11 @@ Check out this week's exercises [here](./week-2/sql-exercises.md).
 
 #### After Break
 
-Check in on project scoping and progress. Remember: small and working is better than big and broken!
+Across the two weeks of this module you will be working on a project per group. In week 2 you'll be continuing your work on the project started in week 1 with your group.
 
 ### After Class
 
-Finish working on your projects from last week.
+Try to finish up your project!
 
 [TOP](#databases)
 
