@@ -158,13 +158,20 @@ Finish working on your projects from last week.
   - Give your name
   - and a helpful description
 
-## Class 7 & 8
+### Class 7 & 8
 
 > [Dimitri Roose](https://github.com/sjimi), [Stijn Wynants](https://stackoverflow.com/users/1499018/stijn-wynants)
 
 1. [Week 1](https://vimeo.com/424516925)
-2. Week 2:
+2. Week 2
    - [Part 1](https://vimeo.com/426980670)
    - [Part 2](https://vimeo.com/426995522)
    - [Part 3](https://vimeo.com/427003854)
    - [Part 4](https://vimeo.com/427039078)
+
+
+### Class 9 & 10
+> [Dimitri Roose](https://github.com/sjimi), [Stijn Wynants](https://stackoverflow.com/users/1499018/stijn-wynants)
+
+1. Week 1
+2. Week 2
