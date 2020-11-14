@@ -89,11 +89,7 @@ Check out this week's exercises [here](./week-1/sql-exercises.md).
 
 #### After Break
 
-Across the two weeks of this module you will be working on a project per group. You get to decide as group what you are going to build, the only requirement is that you use [the Chinook database](./chinook-database/chinook.sqlite). So get creative, but it's important to scope your work so that you end up with something that works. The coaches will challenges you on your idea and scope.
-
-### After Class
-
-This module's project is a two-week group project.  Anything goes! The most important thing to keep in mind for this module's project is _scoping_, it's better to build something small that works than something big that doesn't.
+Across the two weeks of this module you will be working on a project per group. You get to decide as group what you are going to build, the only requirement is that you use [the Chinook database](./chinook-database/chinook.sqlite). So get creative, but it's important to scope your work so that you end up with something that works: it's better to build something small that works than something big that doesn't. The coaches will challenges you on your idea and scope.
 
 Here's a [starter repository](https://github.com/HackYourFutureBelgium/restful-chinook) you can use, but you don't have to.
 
@@ -109,6 +105,10 @@ Here's a [starter repository](https://github.com/HackYourFutureBelgium/restful-c
   - [ ] Uses the SQLite Chinook database
   - [ ] A working `/api` to access the the database
 ```
+
+### After Class
+
+Continue your project efforts!
 
 [TOP](#databases)
 
