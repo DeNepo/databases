@@ -51,6 +51,7 @@ Projects in this module will use the same folder structure & boilerplate code yo
 #### Tooling
 
 - [TablePlus](https://tableplus.com/) is a modern, native, and friendly GUI tool for several relational databases: SQLite, MySQL, PostgreSQL & more.
+- [Diagram by TablePlus](https://diagramplus.com/) database diagram creator.
 - [DB Browser for SQLite](https://sqlitebrowser.org/) is a high quality, visual, open source tool to create, design, and edit database files compatible with SQLite.
 - [SQLite Viewer](https://inloop.github.io/sqlite-viewer/) is an online SQLite editor.
 - [SQLite Editor by SQLite Tutorial](https://www.sqlitetutorial.net/tryit/) is also an online SQLite editor, specifically for the Chinook sample database.
