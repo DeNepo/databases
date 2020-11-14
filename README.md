@@ -46,12 +46,6 @@ Projects in this module will use the same folder structure & boilerplate code yo
 
 ## Suggested Study
 
-Helpful resources for this module
-
-<details open>
-<summary>expand/collapse</summary>
-<br>
-
 #### SQL
 
 - [sqlteaching](https://www.sqlteaching.com/)
@@ -74,9 +68,6 @@ Helpful resources for this module
   - [developerhowto tutorial article](https://developerhowto.com/2018/12/29/build-a-rest-api-with-node-js-and-express-js/)
   - PetsApp: [video tutorial (SQLite starts at #7)](https://www.youtube.com/watch?v=2PCaD0Y4MP4&list=PLzV58Zm8FuBIWu1zvGRUfn0Xh6HXRg9cG&index=7), [starter code & finished to study](https://github.com/pgbovine/COGS121)
 
-</details>
-<br>
-
 [TOP](#databases)
 
 ---
@@ -89,19 +80,15 @@ Helpful resources for this module
 - Learn how to communicate with SQLite databases in JavaScript
 - Plan and scope projects around your data
 
-<details open>
-<summary>expand/collapse</summary>
-<br>
-
 ### Before Class
 
-[./week-1/prep-work.md](./week-1/prep-work.md)
+The goal is to make this a very hands-on class. Nonetheless it's important to familiarize yourself with some theoretical concepts surrounding databases before diving in. Dive in here [here](./week-1/prep-work.md).
 
 ### During Class
 
 #### Before Break
 
-[./week-1/sql-exercises.md](./week-1/sql-exercises.md)
+Check out this week's exercises [here](./week-1/sql-exercises.md).
 
 #### After Break
 
@@ -128,9 +115,6 @@ Here's a [starter repository](https://github.com/HackYourFutureBelgium/restful-c
   - [ ] A working `/api` to access the the database
 ```
 
-</details>
-<br>
-
 [TOP](#databases)
 
 ---
@@ -141,19 +125,17 @@ Here's a [starter repository](https://github.com/HackYourFutureBelgium/restful-c
 - Learn how to write SQL queries to read data using following statements: `JOIN`
 - Learn how to write basic SQL queries to create, update and delete records and tables using the following statements: `INSERT`, `UPDATE`, `DELETE`, `CREATE TABLE`, `ALTER TABLE`, `DROP TABLE`
 
-<details open>
-<summary>expand/collapse</summary>
-<br>
-
 ### Before Class
 
-[./week-2/prep-work.md](./week-2/prep-work.md)
+Just as last week we want to focus on practice. But some preparation never hurts, right? Get a head start 
+[here](./week-2/prep-work.md)
+
 
 ### During Class
 
 #### Before Break
 
-[./week-2/sql-exercises.md](./week-2/sql-exercises.md)
+Check out this week's exercises [here](./week-2/sql-exercises.md).
 
 #### After Break
 
@@ -162,9 +144,6 @@ Check in on project scoping and progress. Remember: small and working is better 
 ### After Class
 
 Finish working on your projects from last week.
-
-</details>
-<br>
 
 [TOP](#databases)
 
