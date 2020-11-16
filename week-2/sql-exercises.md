@@ -1,7 +1,6 @@
-# Round 2
-
+# Week 2
 In these exercises we focus solely on writing SQL. You can use the [the online SQLite viewer](https://inloop.github.io/sqlite-viewer/) again or use one of the tools suggested in the previous class.
-## Joins
+## Join
 <details><summary>1. Show all albums' title and artist name</summary>
 
 ```sql
@@ -206,94 +205,86 @@ HAVING IsEqual = FALSE;
 ```
 </details>
 
-## Insert, Update, Delete
-<details><summary>14. Add an employee with name Jane Doe</summary>
+## Create, Alter and Drop
+
+<details><summary>14. Create the ERD for the HackYourFuture database (you can Draw.io. check out this how-to)</summary>
+
+![HackYourFuture ERD](hyf-erd.png)
+
+Note that this is just one possible, albeit simple, solution.
+</details>
+
+<details><summary>15. Create the tables according to the ERD</summary>
 
 ```sql
-INSERT INTO Employee (FirstName, LastName)
-		VALUES('Jane', 'Doe');
+CREATE TABLE Person (
+	PersonId INTEGER PRIMARY KEY,
+	FirstName TEXT NOT NULL,
+	LastName TEXT NOT NULL,
+	Nickname TEXT
+);
+
+CREATE TABLE Module (
+	ModuleId INTEGER PRIMARY KEY,
+	Name TEXT,
+	CoachId INTEGER,
+	FOREIGN KEY (CoachId) REFERENCES Person (PersonId)
+);
+
+CREATE TABLE ModuleStudent (
+	ModuleId INTEGER,
+	StudentId INTEGER,
+	FOREIGN KEY (ModuleId) REFERENCES Module (ModuleId),
+	FOREIGN KEY (StudentId) REFERENCES Person (PersonId),
+	UNIQUE (ModuleId, StudentId)
+);
 ```
 </details>
 
-<details><summary>15. Update employee Jane Doe's title, birth date, hire date, city and country to be Sales Support Agent, 2000-06-07 00:00:00, 2020-06-07 00:00:00, Lethbridge and Canada respectively</summary>
+## Insert, Update and Delete
+
+With the database structure in place it's time to add some data.
+
+<details><summary>16. Insert the date for your module, your coaches and the students of your group into database</summary>
+
+```sql
+INSERT INTO Module (Name)
+		VALUES('databases');
+
+--coaches
+INSERT INTO Person (FirstName, LastName)
+		VALUES('Jane', 'Doe'), ('John', 'Doe');
+
+--students
+INSERT INTO Person (FirstName, LastName)
+		VALUES('John', 'Roe'), ('Richard', 'Roe'), ('Jane', 'Roe'), ('Baby', 'Doe');
+```
+</details>
+
+<details><summary>17. Update the coach for the databases module to be Jane Doe</summary>
 
 ```sql
 UPDATE
-	Employee
+	Module
 SET
-	Title = 'Sales Support Agent',
-	BirthDate = '2000-06-07 00:00:00',
-	HireDate = '2020-06-07 00:00:00',
-	City = 'Lethbridge',
-	Country = 'Canada'
+	CoachId = 1
 WHERE
-	FirstName = 'Jane' AND LastName ='Doe';
+	Name = 'databases';
 ```
 </details>
 
-<details><summary>16. Update the support rep id of all customers with country Canada to Jane Doe; then run the query of exercise 14 again</summary>
+<details><summary>18. Add the students to the database module</summary>
 
 ```sql
-UPDATE
-	Customer
-SET
-	SupportRepId = 9 --fill in the SupportRepId accordingly
-WHERE
-	Country = 'Canada';
-
---Jane Doe now has a total too
+INSERT INTO ModuleStudent (ModuleId, StudentId)
+		VALUES(1, 3), (1, 4), (1, 5), (1, 6);
 ```
 </details>
 
-<details><summary>17. Add an invoice line for invoice with id 1 with track id, unit price and quantity to be 2, 0.99 and 2 respectively; then run the query of exercise 12 again</summary>
+<details><summary>19. Delete coach John Doe</summary>
 
 ```sql
-INSERT INTO InvoiceLine (InvoiceId, TrackId, UnitPrice, Quantity)
-	VALUES('1', '2', '0.99', '2');
-
---there should now be one invoices for which the total is not equal to the total of all the invoice lines' total
-```
-</details>
-
-<details><summary>18. Update the invoice total of invoice 1 accordingly; run the query of exercise 11 again</summary>
-
-```sql
-UPDATE
-	Invoice
-SET
-	Total = 3.96
-WHERE
-	InvoiceId = 1;
-
---all invoices should add up again
-```
-</details>
-
-<details><summary>19. Delete the previously added invoice line; then run the query of exercise 12 again</summary>
-
-```sql
-DELETE FROM InvoiceLine
-WHERE Quantity = '2';
-
---OR use the InvoiceLineId instead
-
-DELETE FROM InvoiceLine
-WHERE InvoiceLine.InvoiceLineId = '2241'; --fill in the InvoiceLineId accordingly
-
---there should now be one invoice for which the total is not equal to the total of all the invoice lines' total
-```
-</details>
-
-<details><summary>20. Again, update the invoice total of invoice 1 accordingly; then run the query of exercise 12 again</summary>
-
-```sql
-UPDATE
-	Invoice
-SET
-	Total = 1.98
-WHERE
-	InvoiceId = 1;
-
---all invoices should add up again
+DELETE FROM Person
+WHERE PersonId = 2;
 ```
 </details>

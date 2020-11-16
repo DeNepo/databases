@@ -32,7 +32,7 @@ Extra resources:
 
 Before we continue familiarizing ourselves with some concepts of the relational model, let's take a look at a concrete, sample database. In this module we'll be using the [Chinook](https://github.com/lerocha/chinook-database) database. It models data to represent a digital media store: artists, albums, media tracks, invoices and customers. [The database schema](https://en.wikipedia.org/wiki/Database_schema) for this database looks like this:
 
-![Chinook Sample Database](chinook-schema.png)
+![Chinook Sample Database](chinook-erd.png)
 
 ### Tables, Records, Attributes, Fields and Keys
 

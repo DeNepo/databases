@@ -14,7 +14,7 @@ Extra resources:
 
 There are three specific types of [relations(hips)](https://en.wikipedia.org/wiki/Cardinality_(data_modeling)) that can exist between a pair of tables: one-to-one, one-to-many, and many-to-many. Let's look at them using our sample database ERD.
 
-![Chinook Sample Database](chinook-schema.png)
+![Chinook Sample Database](chinook-erd.png)
 
 #### One-to-One (1-1)
 
