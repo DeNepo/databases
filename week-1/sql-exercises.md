@@ -1,6 +1,6 @@
 # Round 1
 
-In these exercises we focus solely on writing SQL. Use [the online SQLite viewer](https://inloop.github.io/sqlite-viewer/), upload [our sample database file](chinook.sqlite) and start writing those queries!
+In these exercises we focus solely on writing SQL. Use [the online SQLite viewer](https://inloop.github.io/sqlite-viewer/), upload [our sample database file](../chinook-database/chinook.sqlite) and start writing those queries!
 ## Select
 <details><summary>1. Show all artists</summary>
 

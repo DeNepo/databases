@@ -1,8 +1,5 @@
 # Databases
 
-> I literally have a massive database of cat sounds.
-> - [El-P](https://www.imdb.com/name/nm1474803/)
-
 ## Contents
 
 - [Learning Objectives](#learning-objectives)
@@ -46,12 +43,6 @@ Projects in this module will use the same folder structure & boilerplate code yo
 
 ## Suggested Study
 
-Helpful resources for this module
-
-<details open>
-<summary>expand/collapse</summary>
-<br>
-
 #### SQL
 
 - [sqlteaching](https://www.sqlteaching.com/)
@@ -60,6 +51,7 @@ Helpful resources for this module
 #### Tooling
 
 - [TablePlus](https://tableplus.com/) is a modern, native, and friendly GUI tool for several relational databases: SQLite, MySQL, PostgreSQL & more.
+- [Diagram by TablePlus](https://diagramplus.com/) database diagram creator.
 - [DB Browser for SQLite](https://sqlitebrowser.org/) is a high quality, visual, open source tool to create, design, and edit database files compatible with SQLite.
 - [SQLite Viewer](https://inloop.github.io/sqlite-viewer/) is an online SQLite editor.
 - [SQLite Editor by SQLite Tutorial](https://www.sqlitetutorial.net/tryit/) is also an online SQLite editor, specifically for the Chinook sample database.
@@ -74,9 +66,6 @@ Helpful resources for this module
   - [developerhowto tutorial article](https://developerhowto.com/2018/12/29/build-a-rest-api-with-node-js-and-express-js/)
   - PetsApp: [video tutorial (SQLite starts at #7)](https://www.youtube.com/watch?v=2PCaD0Y4MP4&list=PLzV58Zm8FuBIWu1zvGRUfn0Xh6HXRg9cG&index=7), [starter code & finished to study](https://github.com/pgbovine/COGS121)
 
-</details>
-<br>
-
 [TOP](#databases)
 
 ---
@@ -89,38 +78,28 @@ Helpful resources for this module
 - Learn how to communicate with SQLite databases in JavaScript
 - Plan and scope projects around your data
 
-<details open>
-<summary>expand/collapse</summary>
-<br>
-
 ### Before Class
 
-[./week-1/prep-work.md](./week-1/prep-work.md)
+The goal is to make this a very hands-on class. Nonetheless it's important to familiarize yourself with some theoretical concepts surrounding databases before diving in. Dive in  [here](./week-1/prep-work.md).
 
 ### During Class
 
 #### Before Break
 
-[./week-1/sql-exercises.md](./week-1/sql-exercises.md)
+Check out this week's exercises [here](./week-1/sql-exercises.md).
 
 #### After Break
 
-Begin planning and scoping your 2-week project.
-
-### After Class
-
-#### Impress Yourselves
-
-This module's project is a two-week group project.  Anything goes! The most important thing to keep in mind for this module's project is _scoping_, it's better to build something small that works than something big that doesn't.
+Across the two weeks of this module you will be working on a project per group. You get to decide as group what you are going to build, the only requirement is that you use [the Chinook database](./chinook-database/chinook.sqlite). So get creative, but it's important to scope your work so that you end up with something that works: it's better to build something small that works than something big that doesn't. The coaches will challenges you on your idea and scope.
 
 Here's a [starter repository](https://github.com/HackYourFutureBelgium/restful-chinook) you can use, but you don't have to.
 
-```markdown
-- [ ] [repo](https://github.com/_/_) (with a complete README)
+```
+- [ ] [Repository](https://github.com/_/_) (with a complete README)
 - Project Planning
   - [ ] [Backlog](https://github.com/_/_/tree/master/project-planning/backlog.md)
   - [ ] [Development Strategy](https://github.com/_/_/tree/master/project-planning/development-strategy.md)
-  - [ ] [Project board](https://github.com/_/_/projects/_)
+  - [ ] [Project Board](https://github.com/_/_/projects/_)
 - Implementation
   - [ ] Deployed - [deployment link]()
   - [ ] A working frontend in the `/client` directory
@@ -128,8 +107,9 @@ Here's a [starter repository](https://github.com/HackYourFutureBelgium/restful-c
   - [ ] A working `/api` to access the the database
 ```
 
-</details>
-<br>
+### After Class
+
+Continue your project efforts!
 
 [TOP](#databases)
 
@@ -141,30 +121,25 @@ Here's a [starter repository](https://github.com/HackYourFutureBelgium/restful-c
 - Learn how to write SQL queries to read data using following statements: `JOIN`
 - Learn how to write basic SQL queries to create, update and delete records and tables using the following statements: `INSERT`, `UPDATE`, `DELETE`, `CREATE TABLE`, `ALTER TABLE`, `DROP TABLE`
 
-<details open>
-<summary>expand/collapse</summary>
-<br>
-
 ### Before Class
 
-[./week-2/prep-work.md](./week-2/prep-work.md)
+Just as last week we want to focus on practice. But some preparation never hurts, right? Get a head start 
+[here](./week-2/prep-work.md)
+
 
 ### During Class
 
 #### Before Break
 
-[./week-2/sql-exercises.md](./week-2/sql-exercises.md)
+Check out this week's exercises [here](./week-2/sql-exercises.md).
 
 #### After Break
 
-Check in on project scoping and progress. Remember: small and working is better than big and broken!
+Across the two weeks of this module you will be working on a project per group. In week 2 you'll be continuing your work on the project started in week 1 with your group.
 
 ### After Class
 
-Finish working on your projects from last week.
-
-</details>
-<br>
+Try to finish up your project!
 
 [TOP](#databases)
 
@@ -179,13 +154,21 @@ Finish working on your projects from last week.
   - Give your name
   - and a helpful description
 
-## Class 7 & 8
+### Class 7 & 8
 
 > [Dimitri Roose](https://github.com/sjimi), [Stijn Wynants](https://stackoverflow.com/users/1499018/stijn-wynants)
 
 1. [Week 1](https://vimeo.com/424516925)
-2. Week 2:
+2. Week 2
    - [Part 1](https://vimeo.com/426980670)
    - [Part 2](https://vimeo.com/426995522)
    - [Part 3](https://vimeo.com/427003854)
    - [Part 4](https://vimeo.com/427039078)
+
+
+### Class 9 & 10
+
+> [Dimitri Roose](https://github.com/sjimi), [Stijn Wynants](https://stackoverflow.com/users/1499018/stijn-wynants)
+
+1.[Week 1](https://meet.openknowledge.be/playback/presentation/2.0/playback.html?meetingId=05594ce10542676cd7f00b5d118cb2f367054196-1605436121197)
+2. Week 2
