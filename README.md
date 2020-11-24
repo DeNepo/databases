@@ -189,3 +189,9 @@ Finish working on your projects from last week.
    - [Part 2](https://vimeo.com/426995522)
    - [Part 3](https://vimeo.com/427003854)
    - [Part 4](https://vimeo.com/427039078)
+   
+## Class 9 & 10
+
+> [Dimitri Roose](https://github.com/sjimi), [Stijn Wynants](https://stackoverflow.com/users/1499018/stijn-wynants)
+
+1. [Week 1](https://meet.openknowledge.be/playback/presentation/2.0/playback.html?meetingId=05594ce10542676cd7f00b5d118cb2f367054196-1605436121197)
