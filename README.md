@@ -195,3 +195,4 @@ Finish working on your projects from last week.
 > [Dimitri Roose](https://github.com/sjimi), [Stijn Wynants](https://stackoverflow.com/users/1499018/stijn-wynants)
 
 1. [Week 1](https://meet.openknowledge.be/playback/presentation/2.0/playback.html?meetingId=05594ce10542676cd7f00b5d118cb2f367054196-1605436121197)
+2. Week 2 - server crash :(
