@@ -1,6 +1,7 @@
 # Databases
 
 > I literally have a massive database of cat sounds.
+>
 > - [El-P](https://www.imdb.com/name/nm1474803/)
 
 ## Contents
@@ -111,7 +112,7 @@ Begin planning and scoping your 2-week project.
 
 #### Impress Yourselves
 
-This module's project is a two-week group project.  Anything goes! The most important thing to keep in mind for this module's project is _scoping_, it's better to build something small that works than something big that doesn't.
+This module's project is a two-week group project. Anything goes! The most important thing to keep in mind for this module's project is _scoping_, it's better to build something small that works than something big that doesn't.
 
 Here's a [starter repository](https://github.com/HackYourFutureBelgium/restful-chinook) you can use, but you don't have to.
 
@@ -172,7 +173,7 @@ Finish working on your projects from last week.
 
 ## Class Recordings
 
-- **Students**: Here you can find recordings of this module from past classes.  Enjoy!
+- **Students**: Here you can find recordings of this module from past classes. Enjoy!
 - **Coaches**: When sending your PR's with links please ...
   - Indicate which class you were teaching
   - Which week it was (if the module is more than 1 week)
@@ -185,7 +186,15 @@ Finish working on your projects from last week.
 
 1. [Week 1](https://vimeo.com/424516925)
 2. Week 2:
+
    - [Part 1](https://vimeo.com/426980670)
    - [Part 2](https://vimeo.com/426995522)
    - [Part 3](https://vimeo.com/427003854)
    - [Part 4](https://vimeo.com/427039078)
+
+## Class 9 & 10
+
+> [Dimitri Roose](https://github.com/sjimi), [Stijn Wynants](https://stackoverflow.com/users/1499018/stijn-wynants)
+
+1. [Week 1](https://meet.openknowledge.be/playback/presentation/2.0/playback.html?meetingId=05594ce10542676cd7f00b5d118cb2f367054196-1605436121197)
+2. Week 2 - server crash :(
