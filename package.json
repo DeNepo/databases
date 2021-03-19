@@ -1,6 +1,5 @@
 {
   "dependencies": {
-    "reveal.js": "^4.1.0",
     "sqlite3": "^5.0.2"
   }
 }
