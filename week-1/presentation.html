@@ -1,0 +1,199 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <title>Databases - Week 1</title>
+
+    <link rel="stylesheet" href="../reveal.js/dist/reset.css">
+    <link rel="stylesheet" href="../reveal.js/dist/reveal.css">
+    <link rel="stylesheet" href="../reveal.js/dist/theme/white.css" id="theme">
+
+    <!-- Theme used for syntax highlighted code -->
+    <link rel="stylesheet" href="../reveal.js/plugin/highlight/monokai.css" id="highlight-theme">
+    ]
+
+    <style>
+        .reveal .footer {
+            position: absolute;
+            bottom: 2em;
+            left: 1.5em;
+            font-size: 0.5em;
+        }
+    </style>
+</head>
+<body>
+<div class="reveal">
+    <div class="slides">
+        <section data-markdown>
+            <textarea data-template>
+            # Databases
+            Week 1
+
+            [HackYourFutureBelgium/databases](https://github.com/HackYourFutureBelgium/databases)
+            </textarea>
+        </section>
+        <section data-markdown>
+            <textarea data-template>
+            ## Coaches
+            - Dimitri Roose
+            - Randi Vertongen
+            - Ilhan Koral
+            </textarea>
+        </section>
+        <section data-markdown>
+            <textarea data-template>
+            ## Overview
+            - 15' Coaches, Overview, Objectives, Tools
+            - 15' Prep work recap
+            - 30' Select
+            - 30' Where
+            - 30' Break 🥗
+            - 30' Min, Sum, Max, Avg
+            - 30' Group By
+            - 60' Project
+            </textarea>
+        </section>
+        <section data-markdown>
+            <textarea data-template>
+            ## Approach
+            - Example
+            - Exercises
+
+                Try them before looking at the solution!
+            </textarea>
+        </section>
+        <section data-markdown>
+            <textarea data-template>
+            ## Objectives
+            - Familiarize some theoretical concepts: information systems, databases, RDMBs, relational models, tables, records, attributes, fields and keys
+            - Learn how to navigate a (SQLite) database
+            </textarea>
+        </section>
+        <section data-markdown>
+            <textarea data-template>
+            ## Objectives
+            - Learn how to write basic SQL queries using the following statements: `SELECT`, `ORDER BY`, `SELECT DISTINCT`, `WHERE`, `LIMIT`, `BETWEEN`, `LIKE`, `GROUP BY`
+            - Learn how to communicate with SQLite databases in JavaScript
+            - Plan and scope projects around your data
+            </textarea>
+        </section>
+        <section data-markdown>
+            <textarea data-template>
+            ## Tools
+            - SQLite
+            - [SQLite Viewer](https://inloop.github.io/sqlite-viewer/)
+            - [TablePlus](https://tableplus.com/)
+            </textarea>
+        </section>
+        <section data-markdown>
+            <textarea data-template>
+            ## Prep Work Recap
+            - Information Systems, Databases and RDMBs
+                Relational databases versus non-relational databases
+            </textarea>
+        </section>
+        <section data-markdown>
+            <textarea data-template>
+            ## Prep Work Recap
+            - Relational modal
+                ![Chinook Sample Database](../week-1/chinook-erd.png)
+            </textarea>
+        </section>
+        <section data-markdown>
+            <textarea data-template>
+            ## Prep Work Recap
+            - SQL
+                This is going to be the focus point of this class: writing SQL queries to fetch data from a database.
+            </textarea>
+        </section>
+        <section data-markdown>
+            <textarea data-template>
+            ## Select
+            - Example
+            </textarea>
+        </section>
+        <section data-markdown>
+            <textarea data-template>
+            ## Select
+            - 30' [Exercises 1-12](https://github.com/HackYourFutureBelgium/databases/blob/master/week-1/sql-exercises.md#select)
+            </textarea>
+        </section>
+        <section data-markdown>
+            <textarea data-template>
+            ## Where
+            - Example
+            </textarea>
+        </section>
+        <section data-markdown>
+            <textarea data-template>
+            ## Where
+            - 30' [Exercises 13-26](https://github.com/HackYourFutureBelgium/databases/blob/master/week-1/sql-exercises.md#where)
+            </textarea>
+        </section>
+        <section data-markdown>
+            <textarea data-template>
+            ## Break 🥗
+            - 30'
+            </textarea>
+        </section>
+        <section data-markdown>
+            <textarea data-template>
+            ## Min, Sum, Max, Avg
+            - Aggregate functions
+            - Example
+            </textarea>
+        </section>
+        <section data-markdown>
+            <textarea data-template>
+            ## Min, Sum, Max, Avg
+            - 30' [Exercises 27-31](https://github.com/HackYourFutureBelgium/databases/blob/master/week-1/sql-exercises.md#min-sum-max-avg)
+            </textarea>
+        </section>
+        </section>
+        <section data-markdown>
+            <textarea data-template>
+            ## Group By
+            - Example
+            </textarea>
+        </section>
+        <section data-markdown>
+            <textarea data-template>
+            ## Group By
+            - 30' [Exercises 32-36](https://github.com/HackYourFutureBelgium/databases/blob/master/week-1/sql-exercises.md#group-by)
+            </textarea>
+        </section>
+        <section data-markdown>
+            <textarea data-template>
+            ## Project
+            - In groups
+            - Come up with a use case
+            - Use the Chinook database
+            - Remember incremental development module
+                GitHub Project, user stories, scoping, etc.
+            </textarea>
+        </section>
+    </div>
+    <div class='footer'>
+        <div>Databases - Week 1</div>
+    </div>
+</div>
+
+<script src="../reveal.js/dist/reveal.js"></script>
+<script src="../reveal.js/plugin/notes/notes.js"></script>
+<script src="../reveal.js/plugin/markdown/markdown.js"></script>
+<script src="../reveal.js/plugin/highlight/highlight.js"></script>
+<script>
+    // More info about initialization & config:
+    // - https://revealjs.com/initialization/
+    // - https://revealjs.com/config/
+    Reveal.initialize({
+        hash: true,
+
+        // Learn about plugins: https://revealjs.com/plugins/
+        plugins: [RevealMarkdown, RevealHighlight, RevealNotes]
+    });
+</script>
+</body>
+</html>
