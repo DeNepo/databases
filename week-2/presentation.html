@@ -1,0 +1,192 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <title>Databases - Week 2</title>
+
+    <link rel="stylesheet" href="../reveal.js/dist/reset.css">
+    <link rel="stylesheet" href="../reveal.js/dist/reveal.css">
+    <link rel="stylesheet" href="../reveal.js/dist/theme/white.css" id="theme">
+
+    <!-- Theme used for syntax highlighted code -->
+    <link rel="stylesheet" href="../reveal.js/plugin/highlight/monokai.css" id="highlight-theme">
+
+    <style>
+        .reveal .footer {
+            position: absolute;
+            bottom: 2em;
+            left: 1.5em;
+            font-size: 0.5em;
+        }
+    </style>
+</head>
+<body>
+<div class="reveal">
+    <div class="slides">
+        <section data-markdown>
+            <textarea data-template>
+            # Databases
+            Week 2
+
+            [HackYourFutureBelgium/databases](https://github.com/HackYourFutureBelgium/databases)
+            </textarea>
+        </section>
+        <section data-markdown>
+            <textarea data-template>
+            ## Coaches
+            - Dimitri Roose
+            - Randi Vertongen
+            </textarea>
+        </section>
+        <section data-markdown>
+            <textarea data-template>
+            ## Overview
+            - 15' Coaches, Overview, Objectives, Tools
+            - 25' Prep work recap
+            - 55' Join
+            - 55' Create, Alter and Drop
+            - 30' Break 🥗
+            - 20' Insert, Update and Delete
+            - 60' Project
+            </textarea>
+        </section>
+        <section data-markdown>
+            <textarea data-template>
+            ## Objectives
+            - Learn about primary keys, foreign keys, relationships and SQL injection
+            - Learn how to write SQL queries to read data using following statements: `JOIN`
+            - Learn how to write basic SQL queries to create, update and delete records and tables using the following statements: `INSERT`, `UPDATE`, `DELETE`, `CREATE TABLE`, `ALTER TABLE`, `DROP TABLE`
+            </textarea>
+        </section>
+        <section data-markdown>
+            <textarea data-template>
+            ## Tools
+            - [SQLite](https://www.sqlite.org/index.html)
+            - [SQLite Viewer](https://inloop.github.io/sqlite-viewer/)
+            - [TablePlus](https://tableplus.com/)
+            </textarea>
+        </section>
+        <section data-markdown>
+            <textarea data-template>
+            ## Approach
+            - Brief introduction using an example
+            - Exercises
+
+                - In two or three groups per level
+                - Using breakout rooms
+                - [Mob programming](https://en.wikipedia.org/wiki/Mob_programming): one person shares their screen and types, the rest of the group works together to find the solution
+                - Don't look at the solution before you've tried
+            </textarea>
+        </section>
+        <section data-markdown>
+            <textarea data-template>
+            ## Prep Work Recap
+            - Foreign Keys, Relationships
+            </textarea>
+        </section>
+        <section data-markdown>
+            <textarea data-template>
+            ## Prep Work Recap
+            - Foreign Keys, Relationships
+                ![Chinook Sample Database](../week-1/chinook-erd.png)
+            </textarea>
+        </section>
+        <section data-markdown>
+            <textarea data-template>
+            ## Prep Work Recap
+            - Foreign Keys, Relationships
+                - One-to-One (1-1)
+                - Many-to-One (1-M)
+                - Many-to-Many (M-M)
+            </textarea>
+        </section>
+        <section data-markdown>
+            <textarea data-template>
+            ## Prep Work Recap
+            - Insert, Update and Delete Records in SQL
+            </textarea>
+        </section>
+        <section data-markdown>
+            <textarea data-template>
+            ## Prep Work Recap
+            - Create, Alter and Drop tables in SQL
+            </textarea>
+        </section>
+        <section data-markdown>
+            <textarea data-template>
+            ## Prep Work Recap
+            - SQL Injection
+            </textarea>
+        </section>
+        <section data-markdown>
+            <textarea data-template>
+            ## Join
+            - Example
+            </textarea>
+        </section>
+        <section data-markdown>
+            <textarea data-template>
+            ## Join
+            - 45' [Exercises 1-13](https://github.com/HackYourFutureBelgium/databases/blob/master/week-2/sql-exercises.md#join)
+            </textarea>
+        </section>
+        <section data-markdown>
+            <textarea data-template>
+            ## Create, Alter and Drop
+            - Example
+            </textarea>
+        </section>
+        <section data-markdown>
+            <textarea data-template>
+            ## Create, Alter and Drop
+            - 45' [Exercises 14-15](https://github.com/HackYourFutureBelgium/databases/blob/master/week-2/sql-exercises.md#create-alter-and-drop)
+            </textarea>
+        </section>
+        <section data-markdown>
+            <textarea data-template>
+            ## Break 🥗
+            - 30'
+            </textarea>
+        </section>
+        <section data-markdown>
+            <textarea data-template>
+            ## Insert, Update and Delete
+            - Example
+            </textarea>
+        </section>
+        <section data-markdown>
+            <textarea data-template>
+            ## Insert, Update and Delete
+            - 20' [Exercises 16-19](https://github.com/HackYourFutureBelgium/databases/blob/master/week-2/sql-exercises.md#create-alter-and-drop)
+            </textarea>
+        </section>
+        <section data-markdown>
+            <textarea data-template>
+            ## Project
+            </textarea>
+        </section>
+    </div>
+    <div class='footer'>
+        <div>Databases - Week 2</div>
+    </div>
+</div>
+
+<script src="../reveal.js/dist/reveal.js"></script>
+<script src="../reveal.js/plugin/notes/notes.js"></script>
+<script src="../reveal.js/plugin/markdown/markdown.js"></script>
+<script src="../reveal.js/plugin/highlight/highlight.js"></script>
+<script>
+    // More info about initialization & config:
+    // - https://revealjs.com/initialization/
+    // - https://revealjs.com/config/
+    Reveal.initialize({
+        hash: true,
+
+        // Learn about plugins: https://revealjs.com/plugins/
+        plugins: [RevealMarkdown, RevealHighlight, RevealNotes]
+    });
+</script>
+</body>
+</html>
