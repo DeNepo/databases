@@ -204,3 +204,5 @@ Finish working on your projects from last week.
 > Dimitri, Randi
 
 1. [Week 1](https://vimeo.com/528348149)
+1. [Week 2](https://vimeo.com/530304854)
+
