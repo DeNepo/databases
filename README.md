@@ -35,11 +35,13 @@ What can you expect to learn in this module?
 ### Tooling
 
 - [SQLite](https://www.sqlite.org/index.html) - a SQL database engine
+    
+    Using the Chinook database of which you can find the file [here (`chinook-database/chinook.sqlite`)](chinook-database/chinook.sqlite) and the ERD [here (`chinook-database/chinook-schema.png`)](chinook-database/chinook-schema.png).
 - [node-sqlite3](https://github.com/mapbox/node-sqlite3)
 
 ### Module Projects
 
-Projects in this module will use the same folder structure & boilerplate code you learned in [the previous `web-apps` module](https://github.com/hackyourfuturebelgium/web-apps), but with an SQLite database instead of a .json file.
+Projects will continue from the project of ([`hyf-backend-introduction`](https://github.com/hackyourfuturebelgium/web-apps)) of the previous module, but with an SQLite database instead of a .json file.
 
 [TOP](#databases)
 
@@ -106,7 +108,7 @@ Helpful resources for this module
 
 #### After Break
 
-Continue working on your project from [the previous `web-apps` module](https://github.com/hackyourfuturebelgium/web-apps) of last week. Instead of fetching data from JSON file a SQLite database can now be leveraged. Start from [the slack-clone.sqlite](slack-clone-database/slack-clone.sqlite) file. Focus on reading from the database.
+Continue working on your project from the previous module ([`hyf-backend-introduction`](https://github.com/hackyourfuturebelgium/web-apps)). Instead of fetching data from JSON file a SQLite database can now be leveraged. Start from [the slack-clone.sqlite](slack-clone-database/slack-clone.sqlite) file. Focus on reading from the database.
 
 ### After Class
 
