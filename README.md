@@ -35,11 +35,13 @@ What can you expect to learn in this module?
 ### Tooling
 
 - [SQLite](https://www.sqlite.org/index.html) - a SQL database engine
+    
+    Using the Chinook database of which you can find the file [here (`chinook-database/chinook.sqlite`)](chinook-database/chinook.sqlite) and the ERD [here (`chinook-database/chinook-schema.png`)](chinook-database/chinook-schema.png).
 - [node-sqlite3](https://github.com/mapbox/node-sqlite3)
 
 ### Module Projects
 
-Projects in this module will use the same folder structure & boilerplate code you learned in [the previous `web-apps` module](https://github.com/hackyourfuturebelgium/web-apps), but with an SQLite database instead of a .json file.
+Projects will continue from the project of ([`hyf-backend-introduction`](https://github.com/hackyourfuturebelgium/web-apps)) of the previous module, but with an SQLite database instead of a .json file.
 
 [TOP](#databases)
 
@@ -106,13 +108,13 @@ Helpful resources for this module
 
 #### After Break
 
-Begin planning and scoping your 2-week project.
+Continue working on your project from the previous module ([`hyf-backend-introduction`](https://github.com/hackyourfuturebelgium/web-apps)). Instead of fetching data from JSON file a SQLite database can now be leveraged. Start from [the slack-clone.sqlite](slack-clone-database/slack-clone.sqlite) file. Focus on reading from the database.
 
 ### After Class
 
-#### Impress Yourselves
+Continue working on your project.
 
-This module's project is a two-week group project. Anything goes! The most important thing to keep in mind for this module's project is _scoping_, it's better to build something small that works than something big that doesn't.
+### Impress Yourselves
 
 Here's a [starter repository](https://github.com/HackYourFutureBelgium/restful-chinook) you can use, but you don't have to.
 
@@ -158,11 +160,11 @@ Here's a [starter repository](https://github.com/HackYourFutureBelgium/restful-c
 
 #### After Break
 
-Check in on project scoping and progress. Remember: small and working is better than big and broken!
+Continue working on your project from [the previous week](https://github.com/HackYourFutureBelgium/databases/blob/master/README.md#after-break). Focus on inserting, updating and deleting from the database.
 
 ### After Class
 
-Finish working on your projects from last week.
+Finish working on your project.
 
 </details>
 <br>
@@ -180,7 +182,7 @@ Finish working on your projects from last week.
   - Give your name
   - and a helpful description
 
-## Class 7 & 8
+## Class 7-8
 
 > [Dimitri Roose](https://github.com/sjimi), [Stijn Wynants](https://stackoverflow.com/users/1499018/stijn-wynants)
 
@@ -192,7 +194,7 @@ Finish working on your projects from last week.
    - [Part 3](https://vimeo.com/427003854)
    - [Part 4](https://vimeo.com/427039078)
 
-## Class 9 & 10
+## Class 9-10
 
 > [Dimitri Roose](https://github.com/sjimi), [Stijn Wynants](https://stackoverflow.com/users/1499018/stijn-wynants)
 
@@ -201,8 +203,14 @@ Finish working on your projects from last week.
 
 ## Class 11-12
 
-> Dimitri, Randi
+> [Dimitri Roose](https://github.com/sjimi), Randi
 
 1. [Week 1](https://vimeo.com/528348149)
-1. [Week 2](https://vimeo.com/530304854)
+2. [Week 2](https://vimeo.com/530304854)
 
+## Class 13-14
+
+> [Dimitri Roose](https://github.com/sjimi), [Unmesh Joshi](https://github.com/unmeshvrije), [Yoshi Malaise](https://github.com/yoshimalaise)
+
+1. [Week 1](https://vimeo.com/528348149)
+2. [Week 2](https://vimeo.com/530304854)
