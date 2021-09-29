@@ -44,7 +44,7 @@ FROM
 ```
 </details>
 
-<details><summary>3. Show all tracks' name, composer, album name, media type name and genre name</summary>
+<details><summary>3. Show all tracks' name, composer, album title, media type name and genre name</summary>
 
 ```sql
 SELECT
