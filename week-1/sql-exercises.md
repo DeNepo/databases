@@ -407,7 +407,7 @@ GROUP BY
     InvoiceId;
 ```
 </details>
-<details><summary>34. Show the sum of all line items' total per invoice</summary>
+<details><summary>34. Show the sum of all line items' total price per invoice</summary>
 
 ```sql
 SELECT
